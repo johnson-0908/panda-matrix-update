@@ -1,0 +1,17 @@
+{
+  "version": "0.1.5",
+  "notes": "• 新增「账号后台自动防掉线」:开启保活的账号按设定间隔在后台自动续登录态,降低掉线\n• 多账号自动错峰、失败自动重试;「设置 → 自动保活」开关/间隔现已真正生效并显示状态\n• 安全修复:不再把根目录临时文件 / 数据库备份打进安装包\n• 增量更新:本次从 0.1.4 升级仅约 29 KB",
+  "full": {
+    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.5/panda-matrix-0.1.5.7z",
+    "sha256": "593fe703044227e48f55eecb0ad36fe06d023dc33c4457b694fd27f8d442929f",
+    "size": 103742746
+  },
+  "patches": [
+    {
+      "from": "0.1.4",
+      "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.5/patch-0.1.4-to-0.1.5.7z",
+      "sha256": "a0d87f9fcec1a4ad9e6bb475e552e9ddd9f7c20361c562d00e423442722c3150",
+      "size": 29212
+    }
+  ]
+}
