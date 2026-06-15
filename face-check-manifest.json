@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "bundle": {
+    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/face-check-v1.0.0/face-check-assets-1.0.0.zip",
+    "sha256": "253471c8cf6cf21cde2a37c40847ac1749c75d4b0d773640320183acbf9b4b2a",
+    "size": 16613268
+  },
+  "files": {
+    "model": "yolov8n-face-lindevs.onnx",
+    "wasm": "ort-wasm-simd-threaded.asyncify.wasm",
+    "glue": "ort-wasm-simd-threaded.asyncify.mjs"
+  }
+}
