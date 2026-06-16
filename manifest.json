@@ -11,5 +11,12 @@
     "sha256": "72722569260403417485ed765cc1aaec453648f3a76ef0b27999bf4dfabc9666",
     "size": 185897177
   },
-  "patches": []
+  "patches": [
+    {
+      "from": "0.1.5",
+      "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/patch-0.1.5-to-0.1.7.7z",
+      "sha256": "3d62c209f85574af137d76e2e69add5dd6311ffd7b4c45fbb04623ceca1e947d",
+      "size": 17605978
+    }
+  ]
 }
