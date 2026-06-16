@@ -1,22 +1,28 @@
 {
-  "version": "0.1.7",
-  "notes": "• 新增「引流发现」：自动刷快手信息流 + 规则打分 + AI 质检，筛出优质引流线索\n• 新增「人脸检测」：粘贴分享链接逐秒识别人脸，输出表格可筛选/导出 CSV\n• 修复创作者平台打开后未登录；恢复账号备注、标签云端同步",
+  "version": "0.1.8",
+  "notes": "• 修复登录报「Bad Gateway」无法登录:同步服务器地址已纠正\n• 更新下载改走国内可访问镜像,修复下载失败/增量更新失败",
   "full": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.7z",
-    "sha256": "376ddcb8225addf0dd8832663a2f7a3df80f9dc82a4856a55f689f5ae1654b8c",
-    "size": 120149202
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/panda-matrix-0.1.8.7z",
+    "sha256": "8f6a691100e9a9084ec2338b0bcb0c007128178ad61d2ba19371aa908c7304fb",
+    "size": 120148697
   },
   "fullZip": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.zip",
-    "sha256": "72722569260403417485ed765cc1aaec453648f3a76ef0b27999bf4dfabc9666",
-    "size": 185897177
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/panda-matrix-0.1.8.zip",
+    "sha256": "a7da242226fba8a1741bc70f3ddeb8d1e8c7c40a9cadadbf532e8985158acc5b",
+    "size": 185897173
   },
   "patches": [
     {
+      "from": "0.1.7",
+      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/patch-0.1.7-to-0.1.8.7z",
+      "sha256": "e90eaef7aa1cdd494d4ca88921efb7892671354c5fc098ba0fe36cea7489d6e0",
+      "size": 2689
+    },
+    {
       "from": "0.1.5",
-      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/patch-0.1.5-to-0.1.7.7z",
-      "sha256": "3d62c209f85574af137d76e2e69add5dd6311ffd7b4c45fbb04623ceca1e947d",
-      "size": 17605978
+      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/patch-0.1.5-to-0.1.8.7z",
+      "sha256": "27964fcb881653bd8b1836a4808345e9510fcdfb6e014ad5ca2b8fd75caaf6c8",
+      "size": 17606776
     }
   ]
 }
