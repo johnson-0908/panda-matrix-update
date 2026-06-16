@@ -1,17 +1,15 @@
 {
-  "version": "0.1.5",
-  "notes": "• 新增「账号后台自动防掉线」:开启保活的账号按设定间隔在后台自动续登录态,降低掉线\n• 多账号自动错峰、失败自动重试;「设置 → 自动保活」开关/间隔现已真正生效并显示状态\n• 安全修复:不再把根目录临时文件 / 数据库备份打进安装包\n• 增量更新:本次从 0.1.4 升级仅约 29 KB",
+  "version": "0.1.7",
+  "notes": "• 新增「引流发现」：自动刷快手信息流 + 规则打分 + AI 质检，筛出优质引流线索\n• 新增「人脸检测」：粘贴分享链接逐秒识别人脸，输出表格可筛选/导出 CSV\n• 修复创作者平台打开后未登录；恢复账号备注、标签云端同步",
   "full": {
-    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.5/panda-matrix-0.1.5.7z",
-    "sha256": "593fe703044227e48f55eecb0ad36fe06d023dc33c4457b694fd27f8d442929f",
-    "size": 103742746
+    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.7z",
+    "sha256": "376ddcb8225addf0dd8832663a2f7a3df80f9dc82a4856a55f689f5ae1654b8c",
+    "size": 120149202
   },
-  "patches": [
-    {
-      "from": "0.1.4",
-      "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.5/patch-0.1.4-to-0.1.5.7z",
-      "sha256": "a0d87f9fcec1a4ad9e6bb475e552e9ddd9f7c20361c562d00e423442722c3150",
-      "size": 29212
-    }
-  ]
+  "fullZip": {
+    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.zip",
+    "sha256": "72722569260403417485ed765cc1aaec453648f3a76ef0b27999bf4dfabc9666",
+    "size": 185897177
+  },
+  "patches": []
 }
