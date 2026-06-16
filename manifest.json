@@ -2,19 +2,19 @@
   "version": "0.1.7",
   "notes": "• 新增「引流发现」：自动刷快手信息流 + 规则打分 + AI 质检，筛出优质引流线索\n• 新增「人脸检测」：粘贴分享链接逐秒识别人脸，输出表格可筛选/导出 CSV\n• 修复创作者平台打开后未登录；恢复账号备注、标签云端同步",
   "full": {
-    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.7z",
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.7z",
     "sha256": "376ddcb8225addf0dd8832663a2f7a3df80f9dc82a4856a55f689f5ae1654b8c",
     "size": 120149202
   },
   "fullZip": {
-    "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.zip",
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/panda-matrix-0.1.7.zip",
     "sha256": "72722569260403417485ed765cc1aaec453648f3a76ef0b27999bf4dfabc9666",
     "size": 185897177
   },
   "patches": [
     {
       "from": "0.1.5",
-      "url": "https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/patch-0.1.5-to-0.1.7.7z",
+      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.7/patch-0.1.5-to-0.1.7.7z",
       "sha256": "3d62c209f85574af137d76e2e69add5dd6311ffd7b4c45fbb04623ceca1e947d",
       "size": 17605978
     }
