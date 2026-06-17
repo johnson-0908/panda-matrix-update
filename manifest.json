@@ -1,22 +1,22 @@
 {
-  "version": "0.1.11",
-  "notes": "v0.1.11：修复从小店进入「快分销」新标签被要求重新登录；修复小店页面偶发「登录信息获取失败」弹登录。",
+  "version": "0.1.12",
+  "notes": "v0.1.12：修复应用内「检查更新」偶发解压失败（Invalid package）导致无法更新；应用内更新支持增量补丁，更新更快更省流量（无法增量时自动回退完整下载）。",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.11/panda-matrix-0.1.11.7z",
-    "sha256": "2e2374a5abf7064ebb97f90135489b29ef9db5dada74c657f6467e178147eec3",
-    "size": 123708754
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.12/panda-matrix-0.1.12.7z",
+    "sha256": "554b2cc8720aa2126500f9c5487d802b7149933e3f02fc7813aa610e87a6aa78",
+    "size": 123884560
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.11/panda-matrix-0.1.11.zip",
-    "sha256": "3e0d7325e599ba5d0fe36cc526c8b5b76927e42af5e6c4b86d42ad2d8a352d1a",
-    "size": 192750186
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.12/panda-matrix-0.1.12.zip",
+    "sha256": "68f055c1265551a053b4079f8266ddc849971b8d9d4cdb77bcd163ae6b83b0eb",
+    "size": 192969888
   },
   "patches": [
     {
-      "from": "0.1.10",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.11/patch-0.1.10-to-0.1.11.7z",
-      "sha256": "8f6addd27cce501b1c8ee78f6540d2ad91faa11b88887498283a5a1cee409638",
-      "size": 13608
+      "from": "0.1.11",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.12/patch-0.1.11-to-0.1.12.7z",
+      "sha256": "968c41c3d8d0d35388ca4267e709f636fbf1adc117fd4c4fa059c37f609f6718",
+      "size": 185674
     }
   ]
 }
