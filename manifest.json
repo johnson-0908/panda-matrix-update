@@ -1,15 +1,22 @@
 {
-  "version": "0.1.9",
-  "notes": "• 修复线上版作品管理/数据面板/视频二创/磁力金牛读取失败(创作者平台签名失效):签名器与依赖随包发布\n• 修复数据面板偶发卡在「正在读取云端绑定创作者账号」:登录态过期账号的页面采集加硬超时,单账号失败不再拖住整张面板",
+  "version": "0.1.10",
+  "notes": "修复安装版作品管理/数据面板/二创/磁力金牛失效，及部分视频下载与封面在安装版失效；修复账号Cookie串号、今日发布数翻倍。",
   "full": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.9/panda-matrix-0.1.9.7z",
-    "sha256": "a16c446b6386d460b66fc99e37a2a666da3ec78b04196a175cbf8c56c0d586a9",
-    "size": 204073677
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.7z",
+    "sha256": "ccf9fcb5a56d968827a16620e73cd3e4a3a497155cf9fb590295243c052702b0",
+    "size": 123702198
   },
   "fullZip": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.9/panda-matrix-0.1.9.zip",
-    "sha256": "da6673a38a0fc235e0fc1608a9b89e2428578032151b4f570b989c1a13c77d12",
-    "size": 277817284
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.zip",
+    "sha256": "d9865c8021ca38a5f554fbe4408f33735dfde7c3e7e010e69d7775791a77dcb0",
+    "size": 192737835
   },
-  "patches": []
+  "patches": [
+    {
+      "from": "0.1.9",
+      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/patch-0.1.9-to-0.1.10.7z",
+      "sha256": "028df65cbf7512d9a7ed77a49210470cb6a0b13b612b4ac48fd68f6ca7d65c7a",
+      "size": 12413313
+    }
+  ]
 }
