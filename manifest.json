@@ -1,28 +1,15 @@
 {
-  "version": "0.1.8",
-  "notes": "• 修复登录报「Bad Gateway」无法登录:同步服务器地址已纠正\n• 更新下载改走国内可访问镜像,修复下载失败/增量更新失败",
+  "version": "0.1.9",
+  "notes": "• 修复线上版作品管理/数据面板/视频二创/磁力金牛读取失败(创作者平台签名失效):签名器与依赖随包发布\n• 修复数据面板偶发卡在「正在读取云端绑定创作者账号」:登录态过期账号的页面采集加硬超时,单账号失败不再拖住整张面板",
   "full": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/panda-matrix-0.1.8.7z",
-    "sha256": "8f6a691100e9a9084ec2338b0bcb0c007128178ad61d2ba19371aa908c7304fb",
-    "size": 120148697
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.9/panda-matrix-0.1.9.7z",
+    "sha256": "a16c446b6386d460b66fc99e37a2a666da3ec78b04196a175cbf8c56c0d586a9",
+    "size": 204073677
   },
   "fullZip": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/panda-matrix-0.1.8.zip",
-    "sha256": "a7da242226fba8a1741bc70f3ddeb8d1e8c7c40a9cadadbf532e8985158acc5b",
-    "size": 185897173
+    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.9/panda-matrix-0.1.9.zip",
+    "sha256": "da6673a38a0fc235e0fc1608a9b89e2428578032151b4f570b989c1a13c77d12",
+    "size": 277817284
   },
-  "patches": [
-    {
-      "from": "0.1.7",
-      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/patch-0.1.7-to-0.1.8.7z",
-      "sha256": "e90eaef7aa1cdd494d4ca88921efb7892671354c5fc098ba0fe36cea7489d6e0",
-      "size": 2689
-    },
-    {
-      "from": "0.1.5",
-      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.8/patch-0.1.5-to-0.1.8.7z",
-      "sha256": "27964fcb881653bd8b1836a4808345e9510fcdfb6e014ad5ca2b8fd75caaf6c8",
-      "size": 17606776
-    }
-  ]
+  "patches": []
 }
