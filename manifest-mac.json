@@ -1,0 +1,16 @@
+{
+  "version": "0.1.11",
+  "notes": "v0.1.11：修复从小店进入「快分销」新标签被要求重新登录；修复小店页面偶发「登录信息获取失败」弹登录。",
+  "arch": "arm64",
+  "full": {
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.11/panda-matrix-0.1.11-arm64.zip",
+    "sha256": "4afa4055184e91ff8706a74a5cef9e0277b476a2a3abe955b0088d09c0786fc7",
+    "size": 147544782
+  },
+  "dmg": {
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.11/panda-matrix-0.1.11-arm64.dmg",
+    "sha256": "7e14bd58260ed0e49e95fa5527b2f2f5646f6d649e1755169e2cd8c4addb8cca",
+    "size": 135624106
+  },
+  "patches": []
+}
