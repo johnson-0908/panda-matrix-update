@@ -2,19 +2,19 @@
   "version": "0.1.10",
   "notes": "修复小店上/下架与磁力金牛操作失败；修复安装版作品管理/数据面板/二创/金牛读取失败（签名器随包）、视频下载/封面失效（ffmpeg 随包）、数据面板偶发卡死；修复账号串号、今日发布数翻倍。",
   "full": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.7z",
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.7z",
     "sha256": "400c6cc3f46e4f338728c2633db1fb6d7dc4838f51ea137e4ec8c8cedb0e1170",
     "size": 123704508
   },
   "fullZip": {
-    "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.zip",
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/panda-matrix-0.1.10.zip",
     "sha256": "6f96102b22da321567f7ed700177aa2c031fd6732a7d24eba4b969d74a2e54a9",
     "size": 192743450
   },
   "patches": [
     {
       "from": "0.1.9",
-      "url": "https://ghproxy.net/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/patch-0.1.9-to-0.1.10.7z",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.10/patch-0.1.9-to-0.1.10.7z",
       "sha256": "6b1928a2e78737cd4f5521976494d13c13f177d57fb1f0a2094d8f53a65cb917",
       "size": 12412856
     }
