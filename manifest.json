@@ -1,22 +1,22 @@
 {
-  "version": "0.1.13",
-  "notes": "v0.1.13：磁力金牛新增「商品全站推广」（章鱼发布/快手橱窗/投放计划）；引流发现新增「自定义视频」二创模式（本地上传多选+带货自动补货架）；数据面板首拉提速并新增账号读取诊断；作品管理/创作者看板加载加速；小店发布自动补货架+自动封面；修复金牛钱包云端重复绑定账号无法操作。",
+  "version": "0.1.14",
+  "notes": "v0.1.14：我的货架新增「批量补充上架」；修复补充上架把已在架账号误判为未添加（改用货架真实数据）；上架失败明细带账号名；二创机构已授权不再误判为失败；下架弹窗新增账号搜索与未加入账号展示。",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.13/panda-matrix-0.1.13.7z",
-    "sha256": "54fc1375bd579743db6c1c88d7eca9decab1578a87c81ae9ce6ce23720208761",
-    "size": 104645859
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/panda-matrix-0.1.14.7z",
+    "sha256": "bf113872fc6ac72cdc0ff4c1b0ef9a0f68798a9d0c430a959f2fdc7de4c9d729",
+    "size": 104643237
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.13/panda-matrix-0.1.13.zip",
-    "sha256": "67acf8ed5eb30f42ed67d8ae2e5444e880c749b5fa908a20372578c26e44fad0",
-    "size": 173641678
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/panda-matrix-0.1.14.zip",
+    "sha256": "90457b0ea11848c1b69ab3ea9b45aee04bd7522278da14ade5d0637e42a35bf7",
+    "size": 173644944
   },
   "patches": [
     {
-      "from": "0.1.12",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.13/patch-0.1.12-to-0.1.13.7z",
-      "sha256": "721f4925749c3e895e341d9fa70db20cf24cabd6935b7f7272b11d0b9ac4650b",
-      "size": 100329
+      "from": "0.1.13",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/patch-0.1.13-to-0.1.14.7z",
+      "sha256": "9d33cc432b0cb9ee367f67b5f2b691b95cbd275dbc987bd26d30534a4bab9558",
+      "size": 8231
     }
   ]
 }
