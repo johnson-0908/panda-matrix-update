@@ -1,22 +1,22 @@
 {
-  "version": "0.1.14",
-  "notes": "v0.1.14：我的货架新增「批量补充上架」；修复补充上架把已在架账号误判为未添加（改用货架真实数据）；上架失败明细带账号名；二创机构已授权不再误判为失败；下架弹窗新增账号搜索与未加入账号展示。",
+  "version": "0.1.15",
+  "notes": "v0.1.15：磁力金牛商品全站推广(快手橱窗)增强——建计划自动带素材(系统推荐+小店视频)、ROI按策略(统一/保本/保本上浮、含手续费)、补充素材/删除计划、批量与一键跨账号新建/补充。",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/panda-matrix-0.1.14.7z",
-    "sha256": "bf113872fc6ac72cdc0ff4c1b0ef9a0f68798a9d0c430a959f2fdc7de4c9d729",
-    "size": 104643237
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15.7z",
+    "sha256": "26652bdd0ac8e0daff9ce1ea3406ca51498e6f1b60b057dba4b96d3bc1fbde91",
+    "size": 104651078
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/panda-matrix-0.1.14.zip",
-    "sha256": "90457b0ea11848c1b69ab3ea9b45aee04bd7522278da14ade5d0637e42a35bf7",
-    "size": 173644944
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15.zip",
+    "sha256": "9254008a599afd2abd9c7b57266cb5a8672a1b300384ae110d48f34773b31d07",
+    "size": 173657310
   },
   "patches": [
     {
-      "from": "0.1.13",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.14/patch-0.1.13-to-0.1.14.7z",
-      "sha256": "9d33cc432b0cb9ee367f67b5f2b691b95cbd275dbc987bd26d30534a4bab9558",
-      "size": 8231
+      "from": "0.1.14",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/patch-0.1.14-to-0.1.15.7z",
+      "sha256": "d29fabc24ea70bc549cd2efe6e661f6c973ec7628e1c8faaf0fbfd52ebd35a11",
+      "size": 47128
     }
   ]
 }
