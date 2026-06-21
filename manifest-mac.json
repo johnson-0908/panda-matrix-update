@@ -4,13 +4,13 @@
   "arch": "arm64",
   "full": {
     "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15-arm64.zip",
-    "sha256": "39510198bb740034cfcc31520edeaf560e376a55a0673f867cc961ea853d1035",
-    "size": 147600088
+    "sha256": "b6d4f8a9ae8692ea320a96c26f2a4206935eabca21da6cdb74f9d97e6e4000bc",
+    "size": 147600601
   },
   "dmg": {
     "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15-arm64.dmg",
-    "sha256": "da3a6a5dbd5865d056f7437f974723ffb6b4144c60c84f94d4817db9a9c1f0ec",
-    "size": 135750845
+    "sha256": "a32f94eb7661ae886a7e26eed967176b0efd0e5d2861d42bf6515945d68a7de5",
+    "size": 135751410
   },
   "patches": []
 }
