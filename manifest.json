@@ -1,22 +1,22 @@
 {
-  "version": "0.1.15",
-  "notes": "v0.1.15：磁力金牛商品全站推广(快手橱窗)增强——建计划自动带素材(系统推荐+小店视频)、ROI按策略(统一/保本/保本上浮、含手续费)、补充素材/删除计划、批量与一键跨账号新建/补充。",
+  "version": "0.1.16",
+  "notes": "v0.1.16：Seedance 复刻替换 Gemini Omini + 引流二创业务模式联动锁定 + 小店发布/货架/账号提速",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15.7z",
-    "sha256": "26652bdd0ac8e0daff9ce1ea3406ca51498e6f1b60b057dba4b96d3bc1fbde91",
-    "size": 104651078
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.16/panda-matrix-0.1.16.7z",
+    "sha256": "d98b64a99eba292a93bbb4b984c91a03c4d5d0c57aae75a9b9f797b738de6e7e",
+    "size": 104705674
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15.zip",
-    "sha256": "9254008a599afd2abd9c7b57266cb5a8672a1b300384ae110d48f34773b31d07",
-    "size": 173657310
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.16/panda-matrix-0.1.16.zip",
+    "sha256": "9f96cbf0c2ccd478ba154e6599b0a104407919cea3ee06028f76e7f31a4c0428",
+    "size": 173740048
   },
   "patches": [
     {
-      "from": "0.1.14",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/patch-0.1.14-to-0.1.15.7z",
-      "sha256": "d29fabc24ea70bc549cd2efe6e661f6c973ec7628e1c8faaf0fbfd52ebd35a11",
-      "size": 47128
+      "from": "0.1.15",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.16/patch-0.1.15-to-0.1.16.7z",
+      "sha256": "fb349751e920efd7897f1817e0b2117b7bfbccfe37683b5d832f7699016766de",
+      "size": 174972
     }
   ]
 }
