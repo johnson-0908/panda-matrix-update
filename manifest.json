@@ -1,22 +1,22 @@
 {
-  "version": "0.1.17",
-  "notes": "v0.1.17：抖老板内嵌页 + 引流二创图片混剪 + 流式生成/发布节流",
+  "version": "0.1.18",
+  "notes": "v0.1.18：粘贴链接挂车 + 同框检测 + 作品管理虚拟列表/带货分类 + 账号掉线告警",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.17/panda-matrix-0.1.17.7z",
-    "sha256": "4aba76f8b3f5234c3291a282944956d6a46f9109f957de584ba716aa9fcf342a",
-    "size": 169664296
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/panda-matrix-0.1.18.7z",
+    "sha256": "9d87cff9a2d634ba535e05a9ec298d6d8fd555902ac3007b4e6d130df05e17a3",
+    "size": 170490126
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.17/panda-matrix-0.1.17.zip",
-    "sha256": "f80a731e2db296894d3a656e99884ce5cf288ead3ef686c7cf116d57dec03cb1",
-    "size": 238768424
+    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/panda-matrix-0.1.18.zip",
+    "sha256": "54da9981216f742df775e5169186628f6032c0f1969aeefa76de46d035574690",
+    "size": 239897084
   },
   "patches": [
     {
-      "from": "0.1.16",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.17/patch-0.1.16-to-0.1.17.7z",
-      "sha256": "b122cdd405b1ab3206c37fe7966f1dbe645fe820d12f417ec12dd05265bd569b",
-      "size": 65039582
+      "from": "0.1.17",
+      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/patch-0.1.17-to-0.1.18.7z",
+      "sha256": "f7febf6b6a90e0c77b9f8482928a01634f614f3d25e1132d924559066d64c856",
+      "size": 1254875
     }
   ]
 }
