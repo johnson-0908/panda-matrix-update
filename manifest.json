@@ -1,15 +1,15 @@
 {
-  "version": "0.1.19",
-  "notes": "v0.1.19：更新源迁腾讯云 CDN，国内下载更快更稳；素材库混剪带货、本地数据引擎升级、作品管理带货识别优化",
+  "version": "0.1.20",
+  "notes": "v0.1.20：修复链接分发/粘贴挂车在安装版无法解析(签名器按需下载,自带运行时,无需装Java)",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.19/panda-matrix-0.1.19.7z",
-    "sha256": "17d3a4de7f14dc6281578c3f1645e9cccfae9674602c5c35a329d906043fcb80",
-    "size": 186039696
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.20/panda-matrix-0.1.20.7z",
+    "sha256": "f92a65170198e38b98e0df501bbe384738c3d1875d2ae56a220a95b3ee15e69c",
+    "size": 186037498
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.19/panda-matrix-0.1.19.zip",
-    "sha256": "da9ba12a4a98d8c8761d824ac0985e0eae98d27d5311e361686036a3d2b62f2a",
-    "size": 270429565
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.20/panda-matrix-0.1.20.zip",
+    "sha256": "77dd5e5d2e6adc04dc5b9713d62ced2801cba31e855d859e70a0c8711127788a",
+    "size": 270432455
   },
   "patches": []
 }
