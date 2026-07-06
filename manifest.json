@@ -1,22 +1,15 @@
 {
-  "version": "0.1.18",
-  "notes": "v0.1.18：粘贴链接挂车 + 同框检测 + 作品管理虚拟列表/带货分类 + 账号掉线告警",
+  "version": "0.1.19",
+  "notes": "v0.1.19：更新源迁腾讯云 CDN，国内下载更快更稳；素材库混剪带货、本地数据引擎升级、作品管理带货识别优化",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/panda-matrix-0.1.18.7z",
-    "sha256": "9d87cff9a2d634ba535e05a9ec298d6d8fd555902ac3007b4e6d130df05e17a3",
-    "size": 170490126
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.19/panda-matrix-0.1.19.7z",
+    "sha256": "17d3a4de7f14dc6281578c3f1645e9cccfae9674602c5c35a329d906043fcb80",
+    "size": 186039696
   },
   "fullZip": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/panda-matrix-0.1.18.zip",
-    "sha256": "54da9981216f742df775e5169186628f6032c0f1969aeefa76de46d035574690",
-    "size": 239897084
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.19/panda-matrix-0.1.19.zip",
+    "sha256": "da9ba12a4a98d8c8761d824ac0985e0eae98d27d5311e361686036a3d2b62f2a",
+    "size": 270429565
   },
-  "patches": [
-    {
-      "from": "0.1.17",
-      "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.18/patch-0.1.17-to-0.1.18.7z",
-      "sha256": "f7febf6b6a90e0c77b9f8482928a01634f614f3d25e1132d924559066d64c856",
-      "size": 1254875
-    }
-  ]
+  "patches": []
 }
