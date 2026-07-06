@@ -1,15 +1,15 @@
 {
-  "version": "0.1.20",
-  "notes": "v0.1.20：修复链接分发/粘贴挂车在安装版无法解析(签名器按需下载,自带运行时,无需装Java)",
+  "version": "0.1.21",
+  "notes": "v0.1.21：修复应用内更新关闭后不自动重启(先清理残留进程再换装,更稳)",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.20/panda-matrix-0.1.20.7z",
-    "sha256": "f92a65170198e38b98e0df501bbe384738c3d1875d2ae56a220a95b3ee15e69c",
-    "size": 186037498
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.21/panda-matrix-0.1.21.7z",
+    "sha256": "9f2d213e8d3a296e673d0bcc4a5eefb4feacc0e0440db1b3fcea6098cb4d0e11",
+    "size": 186039948
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.20/panda-matrix-0.1.20.zip",
-    "sha256": "77dd5e5d2e6adc04dc5b9713d62ced2801cba31e855d859e70a0c8711127788a",
-    "size": 270432455
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.21/panda-matrix-0.1.21.zip",
+    "sha256": "2e6f01add865a9cebdf800deb8349b173b4d3b1fe012458a8dec97e4389f0de4",
+    "size": 270433376
   },
   "patches": []
 }
