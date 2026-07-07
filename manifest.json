@@ -1,15 +1,15 @@
 {
-  "version": "0.1.21",
-  "notes": "v0.1.21：修复应用内更新关闭后不自动重启(先清理残留进程再换装,更稳)",
+  "version": "0.2.0",
+  "notes": "熊猫矩阵 v0.2.0 首个正式版本，功能全面、运行更快更稳",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.21/panda-matrix-0.1.21.7z",
-    "sha256": "9f2d213e8d3a296e673d0bcc4a5eefb4feacc0e0440db1b3fcea6098cb4d0e11",
-    "size": 186039948
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.0/panda-matrix-0.2.0.7z",
+    "sha256": "fda26c1c5a20f50839f59399e62d9532231465300c551062a6dbbff91ee2cdd2",
+    "size": 187202690
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.1.21/panda-matrix-0.1.21.zip",
-    "sha256": "2e6f01add865a9cebdf800deb8349b173b4d3b1fe012458a8dec97e4389f0de4",
-    "size": 270433376
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.0/panda-matrix-0.2.0.zip",
+    "sha256": "be548ce68540b4d04835ba1a3e7f6a3078bf474ed84ed4e36c80b9ffce41b5bd",
+    "size": 272204487
   },
   "patches": []
 }
