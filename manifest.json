@@ -1,21 +1,21 @@
 {
-  "version": "0.2.3",
-  "notes": "熊猫矩阵 v0.2.3：更新增加安装提示 + 差分下载（省流量）",
+  "version": "0.2.5",
+  "notes": "熊猫矩阵 v0.2.5：小幅优化（验证差分更新）",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.3/panda-matrix-0.2.3.7z",
-    "sha256": "3c2d20ecb818c5c471210adaceab71a386922c81d49d8d61a3a7273b8d301ae6",
-    "size": 187682793
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.7z",
+    "sha256": "9eca2bcb112a0930c51025d1da45d6fe9d96eb0eceda38ae829115bc716018ef",
+    "size": 187686192
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.3/panda-matrix-0.2.3.zip",
-    "sha256": "76a1069a21135b95855ee3bb4b9798bf0dad089d3c198bfd63958d3a2582d010",
-    "size": 297861091
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.zip",
+    "sha256": "02d40f5e5b89149a541cedca6b2c37feb89929687eba9e86335379097d217264",
+    "size": 297861243
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.3/panda-matrix-0.2.3.exe",
-    "sha256": "ed785891c4ea3f01d3d80bea8634fdf16db02ba800f642b8f4fc9dcd2d249081",
-    "size": 231003437,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.3/panda-matrix-0.2.3.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.exe",
+    "sha256": "92988b57aa17df12ff9d0cbccea97d6ab4e40900bfd7a9e58cad9140d03140b4",
+    "size": 231003633,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.exe.blockmap"
   },
   "patches": []
 }
