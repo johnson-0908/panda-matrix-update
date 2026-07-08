@@ -1,21 +1,21 @@
 {
-  "version": "0.2.6",
-  "notes": "熊猫矩阵 v0.2.6\n【新功能】\n· 卡密登录/开通：可凭卡密直接登录，或用卡密为账号开通/续期会员\n· 磁力金牛「视频建计划」：把已发带货视频作素材一键建全站推广计划，支持跨账号批量\n· 素材库混剪/引流二创发布后自动给带货商品建金牛计划\n【优化与修复】\n· 带货识别更快更准，掉车自动纠正\n· 作品管理分类更名「引流视频/带货视频」\n· 链接分发带货发布后自动识别归类\n· 发布任务「部分失败」不再卡住排队\n· 作品同步提速并修复「越同步越少」\n· 金牛监控成交额/预估佣金显示当天实时；修复部分账号小店视频拉不到、导入账号后开箱即用",
+  "version": "0.2.7",
+  "notes": "熊猫矩阵 v0.2.7\n【新功能】\n· 注册支持选择验证方式：卡密验证 / 管理员验证\n  - 卡密验证：填写卡密注册，校验通过即开通并直接登录（卡密天数自动生效）\n  - 管理员验证：提交注册后等待管理员审核，通过后即可登录\n【优化】\n· 卡密注册即登录会自动同步云端数据，无需再次登录\n· 若干稳定性与细节优化",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.7z",
-    "sha256": "2ae97512141ad99d84d12822ff00b88fc41fe53de9f7b53bbf37eabddf7ba18c",
-    "size": 187783451
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.7/panda-matrix-0.2.7.7z",
+    "sha256": "3df4517b52b0166db90d0288ef2a3dae1a31fd694573b00705674ff4b412d09b",
+    "size": 187786377
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.zip",
-    "sha256": "c2f617cf7d7484e5beae09cd2220976c4dd14d582ea51b6353a05c8e9479b5b7",
-    "size": 297900088
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.7/panda-matrix-0.2.7.zip",
+    "sha256": "8abc62f2b2eaf4f0378b82ca08996925218a892dc7004e683343ce6dd6fbda6a",
+    "size": 297901730
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.exe",
-    "sha256": "b72678ab5225e0c9343960d1609d13b9f445794810f9e783a0676fb14749ef42",
-    "size": 231054166,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.7/panda-matrix-0.2.7.exe",
+    "sha256": "df5374a012ad2285632e8b5cbc44dec267546535326d48386eb709785fa225ba",
+    "size": 231055213,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.7/panda-matrix-0.2.7.exe.blockmap"
   },
   "patches": []
 }
