@@ -1,21 +1,21 @@
 {
-  "version": "0.2.5",
-  "notes": "熊猫矩阵 v0.2.5：小幅优化（验证差分更新）",
+  "version": "0.2.6",
+  "notes": "熊猫矩阵 v0.2.6\n【新功能】\n· 卡密登录/开通：可凭卡密直接登录，或用卡密为账号开通/续期会员\n· 磁力金牛「视频建计划」：把已发带货视频作素材一键建全站推广计划，支持跨账号批量\n· 素材库混剪/引流二创发布后自动给带货商品建金牛计划\n【优化与修复】\n· 带货识别更快更准，掉车自动纠正\n· 作品管理分类更名「引流视频/带货视频」\n· 链接分发带货发布后自动识别归类\n· 发布任务「部分失败」不再卡住排队\n· 作品同步提速并修复「越同步越少」\n· 金牛监控成交额/预估佣金显示当天实时；修复部分账号小店视频拉不到、导入账号后开箱即用",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.7z",
-    "sha256": "9eca2bcb112a0930c51025d1da45d6fe9d96eb0eceda38ae829115bc716018ef",
-    "size": 187686192
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.7z",
+    "sha256": "2ae97512141ad99d84d12822ff00b88fc41fe53de9f7b53bbf37eabddf7ba18c",
+    "size": 187783451
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.zip",
-    "sha256": "02d40f5e5b89149a541cedca6b2c37feb89929687eba9e86335379097d217264",
-    "size": 297861243
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.zip",
+    "sha256": "c2f617cf7d7484e5beae09cd2220976c4dd14d582ea51b6353a05c8e9479b5b7",
+    "size": 297900088
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.exe",
-    "sha256": "92988b57aa17df12ff9d0cbccea97d6ab4e40900bfd7a9e58cad9140d03140b4",
-    "size": 231003633,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.5/panda-matrix-0.2.5.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.exe",
+    "sha256": "b72678ab5225e0c9343960d1609d13b9f445794810f9e783a0676fb14749ef42",
+    "size": 231054166,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.6/panda-matrix-0.2.6.exe.blockmap"
   },
   "patches": []
 }
