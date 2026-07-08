@@ -1,21 +1,21 @@
 {
-  "version": "0.2.8",
-  "notes": "熊猫矩阵 v0.2.8\n【调整】\n· 移除独立「卡密登录」入口：新用户用「注册-卡密验证」直接开通，老用户用「卡密续费」续期\n· 登录页更清爽：登录 / 注册 / 卡密续费 三个入口",
+  "version": "0.2.9",
+  "notes": "熊猫矩阵 v0.2.9\n【优化】\n· 「过人脸/识别引擎」下载支持多镜像自动切换，网络受限也能自动下载，无需手动填代理\n· 补全应用内「更新日志」：v0.2.6 起的更新内容已找回，点右上角更新日志即可查看",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.8/panda-matrix-0.2.8.7z",
-    "sha256": "7a04d3f74621954fc9ef20cf5d5ac81d51b73ff1064103125af8f9b937e285d1",
-    "size": 187784213
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.9/panda-matrix-0.2.9.7z",
+    "sha256": "87839e7cdd2e997e50c739f7adebb718ae3661976e941c320cca6cb28abf15ff",
+    "size": 187789878
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.8/panda-matrix-0.2.8.zip",
-    "sha256": "91a1caf7cbbcae8c7a92ee5d376ccc8fc2c1e7c0e6b26656f74687771cd8562a",
-    "size": 297901508
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.9/panda-matrix-0.2.9.zip",
+    "sha256": "4347909a106df34ac4dc3534cd510a3e1a02be793ff08beba634bfc0fb10769a",
+    "size": 297904223
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.8/panda-matrix-0.2.8.exe",
-    "sha256": "f3511d024c51f213578bb0c88352f56c9fd8e9e43accae530efbbd4165fa1193",
-    "size": 231055103,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.8/panda-matrix-0.2.8.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.9/panda-matrix-0.2.9.exe",
+    "sha256": "5f70afa3d9d8c3101fa55430c155259b7a2d5a4d3f537169b39998e31f2b6061",
+    "size": 231059047,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.9/panda-matrix-0.2.9.exe.blockmap"
   },
   "patches": []
 }
