@@ -1,21 +1,21 @@
 {
-  "version": "0.2.11",
-  "notes": "v0.2.11：账号后台保活改本地(住宅IP)防误判掉线",
+  "version": "0.2.12",
+  "notes": "v0.2.12：打开即检查更新，登录页也弹更新提示",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.11/panda-matrix-0.2.11.7z",
-    "sha256": "7d2ee2e90f63dbf0aa98d17e5f51ea2d0a5d45dd25c07df1f6623765f3f2c61b",
-    "size": 187807630
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.12/panda-matrix-0.2.12.7z",
+    "sha256": "0186871048b84773df40d549e2aace1c5d62f0e03661145c2facfdc3a8b21f02",
+    "size": 187808381
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.11/panda-matrix-0.2.11.zip",
-    "sha256": "3995c89e9d1be40644b9c3b233be1542d97bb6008df1cc53a5d6429baaa4cbb2",
-    "size": 297912344
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.12/panda-matrix-0.2.12.zip",
+    "sha256": "6aa3d4278b47e96e1f5180aeed9c82e12d8a8c92005c2f31ee81de9fd27d35c1",
+    "size": 297913021
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.11/panda-matrix-0.2.11.exe",
-    "sha256": "4bc607cc0dce4511948fac7d9ff062d51d11162847579f1f94e7dd64d2cac9c3",
-    "size": 231068894,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.11/panda-matrix-0.2.11.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.12/panda-matrix-0.2.12.exe",
+    "sha256": "adfc0fdd251b7b12a91ac1e90abbe08a1e5ef00fafbe5f38fd2353b7f22910c5",
+    "size": 231070303,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.12/panda-matrix-0.2.12.exe.blockmap"
   },
   "patches": []
 }
