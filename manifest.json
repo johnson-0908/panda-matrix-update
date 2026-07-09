@@ -1,21 +1,21 @@
 {
-  "version": "0.2.14",
-  "notes": "v0.2.14：金牛MCN抽成/技术服务费列+金牛批量任务明细+挂车预检",
+  "version": "0.2.15",
+  "notes": "v0.2.15：金牛净佣金口径重做+余额预警升级(弹窗/语音/邮件)+同框检测后台任务+二创定时开始与断点恢复",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.14/panda-matrix-0.2.14.7z",
-    "sha256": "c8659a89da1a24b2ec0fe1c583dffd342a32403135b6f89b6236b4916e91437a",
-    "size": 187051960
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.15/panda-matrix-0.2.15.7z",
+    "sha256": "1ecad945875f10dad01ed030a184a5f7b426c0b49e16e0c09b83ea58043c1a84",
+    "size": 187972727
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.14/panda-matrix-0.2.14.zip",
-    "sha256": "f1f77460b6d358ada702287f1779e5bbee0b8ce27cdbda0a20d55b344e07f18f",
-    "size": 296883280
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.15/panda-matrix-0.2.15.zip",
+    "sha256": "536a445e762b8c3f0517bdd1c974490145f2ce05176b68ef2e29ce82c4cda3b7",
+    "size": 298076342
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.14/panda-matrix-0.2.14.exe",
-    "sha256": "c44f660e5bc12e5f9e70d7011d98f87a4c866fdf5c3d0a50828cb45075af26d1",
-    "size": 230242776,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.14/panda-matrix-0.2.14.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.15/panda-matrix-0.2.15.exe",
+    "sha256": "5bd7ba90a5b0b7759ce16961ec0aa04f5ae62b8da41ca710d4a026bb464f6c11",
+    "size": 231263218,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.15/panda-matrix-0.2.15.exe.blockmap"
   },
   "patches": []
 }
