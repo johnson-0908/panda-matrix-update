@@ -1,21 +1,21 @@
 {
-  "version": "0.2.16",
-  "notes": "v0.2.16：带货识别全局挂车队列(前台即时插队/后台任务排队,防多路同打一个IP限流)+金牛投放计划多账号查看+cps佣金109自愈",
+  "version": "0.2.17",
+  "notes": "v0.2.17：新增闪退诊断一键导出(上次异常退出弹窗+诊断包)+任务中心历史/筛选+金牛投放计划利润列/列控制/拖拽列宽+批量标签/带货类型+链接分发补齐",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.16/panda-matrix-0.2.16.7z",
-    "sha256": "312b72c3abd2d7a5ca5d34fa921491dd6ee89b6aa7916ee853836558169dc2ae",
-    "size": 187983924
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.7z",
+    "sha256": "97ad119fb104faec1cc8e31bc62bd5aa50e9a472acf7dc5414aecd3ca20f3d93",
+    "size": 187507850
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.16/panda-matrix-0.2.16.zip",
-    "sha256": "17299e9138493d72278ee799569e9b5edce64e1ae74e29bdd6d4ad49a877dc4f",
-    "size": 298086846
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.zip",
+    "sha256": "46907d11af8b3e3aaa742886f4cdc119e98be1a1e20467f1557b9751b12a97b8",
+    "size": 273340463
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.16/panda-matrix-0.2.16.exe",
-    "sha256": "7f562045c71c6b89e2250f698cf03a3f95944ec4103624fbf085824f60cdcbe8",
-    "size": 231270851,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.16/panda-matrix-0.2.16.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.exe",
+    "sha256": "5f4d3cf8f936eea347d9f26743bae6909739a0b17838c9750ef4da07985863a4",
+    "size": 213588889,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.exe.blockmap"
   },
   "patches": []
 }
