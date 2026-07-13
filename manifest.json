@@ -1,21 +1,21 @@
 {
-  "version": "0.2.17",
-  "notes": "v0.2.17：新增闪退诊断一键导出(上次异常退出弹窗+诊断包)+任务中心历史/筛选+金牛投放计划利润列/列控制/拖拽列宽+批量标签/带货类型+链接分发补齐",
+  "version": "0.2.18",
+  "notes": "v0.2.18：挂车解析云端兜底(本机限流自动转服务器解析)+先发后挂不再撞购物车日限额+作品管理全部/引流页签与同框自动检测+金牛投放计划秒开/删除选中计划",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.7z",
-    "sha256": "97ad119fb104faec1cc8e31bc62bd5aa50e9a472acf7dc5414aecd3ca20f3d93",
-    "size": 187507850
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.7z",
+    "sha256": "e61737228a8c5e56fcb82509813fb4f0d4a073d61eb2aa96017b226080b9a5f4",
+    "size": 187526355
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.zip",
-    "sha256": "46907d11af8b3e3aaa742886f4cdc119e98be1a1e20467f1557b9751b12a97b8",
-    "size": 273340463
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.zip",
+    "sha256": "9dbd3eb096cb5333868915b6d22362b64cbb62b8164fc03049624112aa9691f7",
+    "size": 273370110
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.exe",
-    "sha256": "5f4d3cf8f936eea347d9f26743bae6909739a0b17838c9750ef4da07985863a4",
-    "size": 213588889,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.17/panda-matrix-0.2.17.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.exe",
+    "sha256": "de86f5353d2fae157616a4a2c59116560ee016ecae542f06dee01e68e52aa39f",
+    "size": 213617127,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.exe.blockmap"
   },
   "patches": []
 }
