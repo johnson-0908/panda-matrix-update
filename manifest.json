@@ -1,21 +1,21 @@
 {
-  "version": "0.2.18",
-  "notes": "v0.2.18：挂车解析云端兜底(本机限流自动转服务器解析)+先发后挂不再撞购物车日限额+作品管理全部/引流页签与同框自动检测+金牛投放计划秒开/删除选中计划",
+  "version": "0.2.19",
+  "notes": "v0.2.19：链接分发挂车解析云端兜底修复(不再卡在解析x/400) + 本机识别提速约2倍 + 磁力金牛投放计划搜索",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.7z",
-    "sha256": "e61737228a8c5e56fcb82509813fb4f0d4a073d61eb2aa96017b226080b9a5f4",
-    "size": 187526355
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.7z",
+    "sha256": "6a7c5f234c30df05a43266597205690e7cab1185e5abcb60ef5b59362f4bffa4",
+    "size": 187527550
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.zip",
-    "sha256": "9dbd3eb096cb5333868915b6d22362b64cbb62b8164fc03049624112aa9691f7",
-    "size": 273370110
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.zip",
+    "sha256": "10422bbf8a9b42cc737be157c97be48134701af80816d9cec3721722314fb40a",
+    "size": 273373200
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.exe",
-    "sha256": "de86f5353d2fae157616a4a2c59116560ee016ecae542f06dee01e68e52aa39f",
-    "size": 213617127,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.18/panda-matrix-0.2.18.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.exe",
+    "sha256": "fdcc827c6cc8ce525f9f05c539568931c1d18c8b046c056433d41d4c2e66c431",
+    "size": 213619433,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.exe.blockmap"
   },
   "patches": []
 }
