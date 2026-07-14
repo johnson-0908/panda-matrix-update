@@ -1,21 +1,21 @@
 {
-  "version": "0.2.19",
-  "notes": "v0.2.19：链接分发挂车解析云端兜底修复(不再卡在解析x/400) + 本机识别提速约2倍 + 磁力金牛投放计划搜索",
+  "version": "0.2.20",
+  "notes": "v0.2.20：免责声明+金牛计划删除增强+挂车识别健壮性与提速(出口IP限制自动切云端并行换IP重试~2倍)+任务中心布局修复",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.7z",
-    "sha256": "6a7c5f234c30df05a43266597205690e7cab1185e5abcb60ef5b59362f4bffa4",
-    "size": 187527550
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.20/panda-matrix-0.2.20.7z",
+    "sha256": "355edb2e949707c1a844d065c94f8d31a5fc64e6a8af9cb999b1520f4f8be0d3",
+    "size": 187533665
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.zip",
-    "sha256": "10422bbf8a9b42cc737be157c97be48134701af80816d9cec3721722314fb40a",
-    "size": 273373200
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.20/panda-matrix-0.2.20.zip",
+    "sha256": "54157e6c79be2d19dca4c6c809316f05ec8d765871961fd4cf79c12006abdf5d",
+    "size": 273384592
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.exe",
-    "sha256": "fdcc827c6cc8ce525f9f05c539568931c1d18c8b046c056433d41d4c2e66c431",
-    "size": 213619433,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.19/panda-matrix-0.2.19.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.20/panda-matrix-0.2.20.exe",
+    "sha256": "4aef7b6172ee2dd20d41a66b6933c3cecbbfc128158c76c9efc7522e3ece2e02",
+    "size": 213629152,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.20/panda-matrix-0.2.20.exe.blockmap"
   },
   "patches": []
 }
