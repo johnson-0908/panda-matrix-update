@@ -1,21 +1,21 @@
 {
-  "version": "0.2.23",
-  "notes": "v0.2.23：修复批量提取与作品缓存卡顿，自动同步改为二创结束后仅同步当天，并新增磁盘分析清理",
+  "version": "0.2.25",
+  "notes": "v0.2.25???????????????????????? worker",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.7z",
-    "sha256": "3b0dbeb7ec0e99bd197288f9cc0c37f9b13f04f519cfc0d17670ee765eeaabd9",
-    "size": 187559964
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.7z",
+    "sha256": "8c3dd0706f70072ee93cc54da09881e40360ff9b9de962becadb31b3f03dabc0",
+    "size": 187353315
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.zip",
-    "sha256": "9712a64e4802af8f9effc67a1fe97b265f000e0abfad21c447820223be74206c",
-    "size": 273426993
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.zip",
+    "sha256": "4b3dcde22b1746885a755292b7d32400d49224d7dc3867dff385c509228b1e03",
+    "size": 272515937
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.exe",
-    "sha256": "c08ce5d09eb1a8e5332594e24feb054d83700e7f05e03ccd86d0fa59d42d8711",
-    "size": 213662347,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.exe",
+    "sha256": "fd1815f589b2eaa8dc806f8a2e826921316c23943c2ac9a8cf5848b7c086e450",
+    "size": 212910117,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.exe.blockmap"
   },
   "patches": []
 }
