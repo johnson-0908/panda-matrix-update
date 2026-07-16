@@ -1,6 +1,6 @@
 {
   "version": "0.2.25",
-  "notes": "v0.2.25???????????????????????? worker",
+  "notes": "v0.2.25：统一挂车解析入口，多用户公平并发且共享固定全局 worker",
   "full": {
     "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.7z",
     "sha256": "8c3dd0706f70072ee93cc54da09881e40360ff9b9de962becadb31b3f03dabc0",
