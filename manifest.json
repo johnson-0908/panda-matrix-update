@@ -1,21 +1,21 @@
 {
-  "version": "0.2.22",
-  "notes": "v0.2.22：精简挂车识别内部逻辑（随机设备标识已彻底避免限流，移除限流兜底机制）",
+  "version": "0.2.23",
+  "notes": "v0.2.23：修复批量提取与作品缓存卡顿，自动同步改为二创结束后仅同步当天，并新增磁盘分析清理",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.22/panda-matrix-0.2.22.7z",
-    "sha256": "cbb279d6c8f8ee5bf64e4c5c262adad329a21515414ba8d7a1907875826c8719",
-    "size": 187528850
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.7z",
+    "sha256": "3b0dbeb7ec0e99bd197288f9cc0c37f9b13f04f519cfc0d17670ee765eeaabd9",
+    "size": 187559964
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.22/panda-matrix-0.2.22.zip",
-    "sha256": "d2bbf50f5e119615b4073830af4d97df28c8ee58a56ea7650b61b18df81df85d",
-    "size": 273380121
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.zip",
+    "sha256": "9712a64e4802af8f9effc67a1fe97b265f000e0abfad21c447820223be74206c",
+    "size": 273426993
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.22/panda-matrix-0.2.22.exe",
-    "sha256": "423f4e11b1eea0c90828d64ae932409a25c29fe869f9e2e278cdb777a3371b6e",
-    "size": 213624680,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.22/panda-matrix-0.2.22.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.exe",
+    "sha256": "c08ce5d09eb1a8e5332594e24feb054d83700e7f05e03ccd86d0fa59d42d8711",
+    "size": 213662347,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.23/panda-matrix-0.2.23.exe.blockmap"
   },
   "patches": []
 }
