@@ -1,21 +1,21 @@
 {
-  "version": "0.2.25",
-  "notes": "v0.2.25：统一挂车解析入口，多用户公平并发且共享固定全局 worker",
+  "version": "0.2.26",
+  "notes": "v0.2.26：挂车识别并发提速，任务中心新增解析服务器压力状态",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.7z",
-    "sha256": "8c3dd0706f70072ee93cc54da09881e40360ff9b9de962becadb31b3f03dabc0",
-    "size": 187353315
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.7z",
+    "sha256": "34e9bfd6b6838cf21d095b684d63aeaf79cc790fcce9c7eaa6bffb5bdbaef755",
+    "size": 187356487
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.zip",
-    "sha256": "4b3dcde22b1746885a755292b7d32400d49224d7dc3867dff385c509228b1e03",
-    "size": 272515937
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.zip",
+    "sha256": "f6526c7358b4a0543721814c0203a41d6c70a8d5f6fff71ae3e517419e8e3600",
+    "size": 272520257
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.exe",
-    "sha256": "fd1815f589b2eaa8dc806f8a2e826921316c23943c2ac9a8cf5848b7c086e450",
-    "size": 212910117,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.25/panda-matrix-0.2.25.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.exe",
+    "sha256": "51a85da2695a31f871655324070d735fe9d39e36dcaeccac92b116ddc98190d4",
+    "size": 212910455,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.exe.blockmap"
   },
   "patches": []
 }
