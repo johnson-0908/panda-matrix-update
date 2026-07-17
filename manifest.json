@@ -1,21 +1,21 @@
 {
-  "version": "0.2.26",
-  "notes": "v0.2.26：挂车识别并发提速，任务中心新增解析服务器压力状态",
+  "version": "0.2.27",
+  "notes": "v0.2.27\n\n【优化】\n· 挂车商品解析升级为云端异步公平队列，多用户同时使用时不会被单个大批次长期阻塞。\n· 临时网关错误、上游空响应和异常响应自动退避重试，相同商品请求自动合并并复用缓存。\n· 管理端大批量解析采用受控小批次并发，单批失败不影响其他批次。\n\n【修复】\n· 修复服务器拥堵时出现未解析、长请求超时和网络抖动导致整批结果丢失的问题。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.7z",
-    "sha256": "34e9bfd6b6838cf21d095b684d63aeaf79cc790fcce9c7eaa6bffb5bdbaef755",
-    "size": 187356487
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.7z",
+    "sha256": "091596e02ae299e3de9a239b21a874ede40147dea9cead5bda34c8eb7b7fdef9",
+    "size": 187577081
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.zip",
-    "sha256": "f6526c7358b4a0543721814c0203a41d6c70a8d5f6fff71ae3e517419e8e3600",
-    "size": 272520257
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.zip",
+    "sha256": "868c4372b3bcfd3c76de21943a7b8796a68af0fb1b5ddebc2b40b7e9649c9835",
+    "size": 273430188
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.exe",
-    "sha256": "51a85da2695a31f871655324070d735fe9d39e36dcaeccac92b116ddc98190d4",
-    "size": 212910455,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.26/panda-matrix-0.2.26.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.exe",
+    "sha256": "7ab8f546cd1e6e1abd4f56318160c91a64fcafee68ffa8df5e12b7c76ec308a3",
+    "size": 213657242,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.exe.blockmap"
   },
   "patches": []
 }
