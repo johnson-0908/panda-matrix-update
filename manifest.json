@@ -1,21 +1,21 @@
 {
-  "version": "0.2.27",
-  "notes": "v0.2.27\n\n【优化】\n· 挂车商品解析升级为云端异步公平队列，多用户同时使用时不会被单个大批次长期阻塞。\n· 临时网关错误、上游空响应和异常响应自动退避重试，相同商品请求自动合并并复用缓存。\n· 管理端大批量解析采用受控小批次并发，单批失败不影响其他批次。\n\n【修复】\n· 修复服务器拥堵时出现未解析、长请求超时和网络抖动导致整批结果丢失的问题。",
+  "version": "0.2.28",
+  "notes": "v0.2.28\n\n【优化】\n· 打开快手小店后改用真实 Chrome 工作台页面确认登录状态，页面明确失效时立即标记异常并同步云端。\n· 账号状态缓存只保留已确认结果，超时项显示“待复检”，不再长期卡在“检查中”。\n· 违规状态检查使用独立超时，不再拖累已经完成的小店状态检查。\n· 快手与磁力金牛签名组件遇到瞬时加载失败后可自动重试，无需重启客户端。\n\n【修复】\n· 修复小店页面已返回 G-803000-1002 登录失效，却被宽松接口或其它电脑的在线状态覆盖为正常的问题。\n· 修复状态检查超时后账号列表可能长期转圈的问题。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.7z",
-    "sha256": "091596e02ae299e3de9a239b21a874ede40147dea9cead5bda34c8eb7b7fdef9",
-    "size": 187577081
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.28/panda-matrix-0.2.28.7z",
+    "sha256": "01528d6336bbc41d5a0caa0e95b724a569e2bd7cf1cd675fb3d853a9cc6e7791",
+    "size": 187598588
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.zip",
-    "sha256": "868c4372b3bcfd3c76de21943a7b8796a68af0fb1b5ddebc2b40b7e9649c9835",
-    "size": 273430188
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.28/panda-matrix-0.2.28.zip",
+    "sha256": "d2bdfdb120cbcbe21e3fd61c650f6f4a760a3c865d8ca9da2ffcecbe7920961a",
+    "size": 273482264
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.exe",
-    "sha256": "7ab8f546cd1e6e1abd4f56318160c91a64fcafee68ffa8df5e12b7c76ec308a3",
-    "size": 213657242,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.27/panda-matrix-0.2.27.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.28/panda-matrix-0.2.28.exe",
+    "sha256": "808e0cde86ccef4bc6528c29f14bcf9141a38e04634c652800da13fb6ab843d9",
+    "size": 213722129,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.28/panda-matrix-0.2.28.exe.blockmap"
   },
   "patches": []
 }
