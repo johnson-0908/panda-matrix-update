@@ -1,21 +1,21 @@
 {
-  "version": "0.2.32",
-  "notes": "v0.2.32：素材库混剪支持跨重启断点续传与多账号货架缓存，视频引流新增 zydh K10 模式 10，并完善本地运行时和发布状态诊断。",
+  "version": "0.2.33",
+  "notes": "v0.2.33：自研模式 10 新增 CPU 与 NVIDIA 统一的尾部 A 帧保护，修复循环末帧闪出 B 画布和自定义封面偶发丢失，并提升素材任务续传与发布状态一致性。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.32/panda-matrix-0.2.32.7z",
-    "sha256": "0c4ef96f6938ad70fe416c8f1fb95a95186410193cc3798a45c288e23e82595e",
-    "size": 187672957
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.33/panda-matrix-0.2.33.7z",
+    "sha256": "fae306822a43fc5aa0a9339eb5694f64e3a8453e589b4077414589e7b0e995b8",
+    "size": 187677132
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.32/panda-matrix-0.2.32.zip",
-    "sha256": "7e7a4711bb64977dfa8a0fbc5540ff90a69b5a945390d3ef63a292a00e3f8eee",
-    "size": 273582762
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.33/panda-matrix-0.2.33.zip",
+    "sha256": "494b90524e90feb4aeac3e11c175def5a2724c084659986b36bb38f699ef0dd7",
+    "size": 273591694
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.32/panda-matrix-0.2.32.exe",
-    "sha256": "bc1f3d0b5106b86f8b9862d1899f97ebd88c37c23b854f1bc5ff86d82316e36d",
-    "size": 213811620,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.32/panda-matrix-0.2.32.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.33/panda-matrix-0.2.33.exe",
+    "sha256": "156023ef15419ca2dff16d371c7d880ae79b1a139b90da3d76335688bb409d79",
+    "size": 213816669,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.33/panda-matrix-0.2.33.exe.blockmap"
   },
   "patches": []
 }
