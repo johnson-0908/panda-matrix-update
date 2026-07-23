@@ -1,21 +1,28 @@
 {
-  "version": "0.2.35",
-  "notes": "熊猫矩阵 0.2.35 更新公告\n\n1. 图片混剪 V2 新增“从链接库抽取”，支持按账号设置数量；发布成功才消耗链接，失败可继续重试。\n2. 新增任务前积分确认，清楚展示单价、预计消耗、余额和差额，避免价格变化或余额不足时误启动。\n3. 账号违规状态支持跨设备同步，MCN 查询可恢复对应云端登录态并保留最后一次有效签约结果。\n4. 修正磁力金牛佣金口径，多商品订单不再漏算商品预估佣金。\n5. 优化链接库黑名单、失效商品和任务终态处理，提高批量生成与自动发布的稳定性。",
+  "version": "0.2.36",
+  "notes": "熊猫矩阵 0.2.36 更新公告\n\n1. 账号管理改为云端唯一权威，切换客户端用户后不再出现上一用户的达人号。\n2. 小店、创作者和磁力金牛拆分独立会话，换设备后可直接恢复，普通使用不再要求先全量同步检测。\n3. MCN、违规和金牛广告户绑定跨设备同步；网络或登录探测失败不会覆盖已有正确结论。\n4. 三个业务入口只按规范账号 ID 打开，隔离 Profile、代理、UA 和指纹，缺票时自动修复并回传云端。\n5. 账号状态改为紧凑“店/创/牛”显示，表头可拖拽调整宽度并通过 SQLite 跨重启保留。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.35/panda-matrix-0.2.35.7z",
-    "sha256": "94d610f9cf423c0d29bb3a397c144aab0d14e0627de6c208d62a36736dadfa9c",
-    "size": 187741316
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.36/panda-matrix-0.2.36.7z",
+    "sha256": "d82a8f10a05eb056995530ef03c30203f99900cd9168b973a7a8a7a7a535c6dc",
+    "size": 187764755
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.35/panda-matrix-0.2.35.zip",
-    "sha256": "862afadd3132ef76eb58cdd46ca6af61d9932eae8b9f515a661d493ef4602866",
-    "size": 273693064
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.36/panda-matrix-0.2.36.zip",
+    "sha256": "f1995c13197465f389d9626ee85765e645cf377ac961650f453fd16c11e4d035",
+    "size": 273727858
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.35/panda-matrix-0.2.35.exe",
-    "sha256": "afe1c58b48b328a0ce5199ccfc86b4e2c295cf70e18ef1ada968986835297b81",
-    "size": 213915487,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.35/panda-matrix-0.2.35.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.36/panda-matrix-0.2.36.exe",
+    "sha256": "a20cfe4108247de9b0debe440d36445524f6a26754ef7f4bf47bdef403ab540c",
+    "size": 213956297,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.36/panda-matrix-0.2.36.exe.blockmap"
   },
-  "patches": []
+  "patches": [
+    {
+      "from": "0.2.35",
+      "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.36/patch-0.2.35-to-0.2.36.7z",
+      "sha256": "1f174c68442cd63f2fe10e95ddb4e4a4159b573f511aa196a7e35d6fa71d4cf3",
+      "size": 403689
+    }
+  ]
 }
