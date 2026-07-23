@@ -1,21 +1,21 @@
 {
-  "version": "0.2.38",
-  "notes": "熊猫矩阵 0.2.38 更新公告\n\n1. 修复同步或自动检测把单个业务异常、网络失败误报为整个账号掉线，并一次提示大量账号重新登录的问题。\n2. 只有店、创、牛全部已连接业务都被平台明确判定登录失效，才会出现整账号掉线提醒；单业务异常继续显示“部分在线”。\n3. 网络错误、代理不可用、限流、超时和漏返回改为“待复检”，已有云端可信状态时继续沿用，不再被当前设备覆盖。\n4. 修复打开创作者或磁力金牛偶发 zydhLocalSeed is not defined 的报错。\n5. 跨设备打开磁力金牛优先使用云端独立金牛会话，不再让旧设备缓存覆盖云端；本次成功现签的新票验证后会回传。",
+  "version": "0.2.39",
+  "notes": "熊猫矩阵 0.2.39 更新公告\n\n1. 修复新登录账号直接进入磁力金牛失败、必须先手工打开一次快手小店的问题；现在会自动热身小店并重试金牛补签。\n2. 修复磁力金牛首次进入偶发无数据、切换账号后才出现的问题；进入页面会主动加载真实数据。\n3. 修复同步未结束时切换日期或再次点击同步被静默丢弃的问题；现在始终保留最新日期请求，旧结果不会覆盖新日期。\n4. 批量同步并发由 12 收敛为 3，避免云端和快手报表接口瞬时拥塞。\n5. 对 fetch failed、超时和请求中止自动清理账号运行缓存并重试一次，减少偶发同步失败。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.38/panda-matrix-0.2.38.7z",
-    "sha256": "5205d0a7d4ed548382c7834a11e53bb77dd80e39ff0bd36d728c4c8b78c8a5c1",
-    "size": 187767521
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.39/panda-matrix-0.2.39.7z",
+    "sha256": "9e6db4da954085f0286e2beeb659537ce40caafb2386732b1433d900dd5ea5a8",
+    "size": 187772273
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.38/panda-matrix-0.2.38.zip",
-    "sha256": "bfedb7ad59b7c3647ef42e676fa223d326d8fecce57728f1ea35d3136877f722",
-    "size": 273731937
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.39/panda-matrix-0.2.39.zip",
+    "sha256": "7170cf163d5bce4c08c0850cab3b1cc8cf0fbe9bf79e88326a7728d03610a4e5",
+    "size": 273735860
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.38/panda-matrix-0.2.38.exe",
-    "sha256": "ad142b1b65040006bde4054af7029b938c9d328143d525a5c097d48210fa0023",
-    "size": 213960858,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.38/panda-matrix-0.2.38.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.39/panda-matrix-0.2.39.exe",
+    "sha256": "ee63fdbe96f060060400a44851a74c42375fe2a5770db7dd3f15c78f8ae2fbdf",
+    "size": 213965102,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.39/panda-matrix-0.2.39.exe.blockmap"
   },
   "patches": []
 }
