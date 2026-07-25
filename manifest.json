@@ -1,21 +1,21 @@
 {
-  "version": "0.2.44",
-  "notes": "熊猫矩阵 0.2.44 更新公告\n\n1. 账号管理、视频二创和其他业务统一使用当前云端规范账号；店、创、牛三个入口精准对应当前账号，不再按昵称、首账号或旧工作区数据兜底。\n2. 新增账号与三业务登录态的原子云端快照，并使用加密本机缓存和后台预取；首次打开更快，写入冲突时整包回滚，不会出现只同步一半。\n3. 删除账号新增持久围栏和重启补偿，旧保活、Cookie 同步和缓存目录都不能让已删账号复活；批量删除中单个失败不会影响其余账号。\n4. 优化小店、创作者和磁力金牛打开链路，修复 Cookie 过大导致 HTTP 431、旧票覆盖新票、金牛欢迎页误报正常、重复启动 Chrome 和跨账号响应误判。\n5. 启动阶段云端任务改为低优先级串行执行，自动保活固定四小时逐账号运行；普通页面刷新不再触发全量检测，瞬时网络异常也不会把账号直接标红。\n6. 后端新增账号快照事务、状态写入限流、统一数据库锁顺序和连接容量保护；临时 401、503 或用户库抖动会短重试，账号读取与业务请求更稳定。\n7. 本次同时包含此前尚未公开推送的 0.2.42、0.2.43 账号目录与三业务入口改进，客户端将从线上 0.2.41 直接升级到 0.2.44。",
+  "version": "0.2.45",
+  "notes": "熊猫矩阵 0.2.45 更新公告\n\n1. 图片混剪 V2 默认生图模型切换为 EvoLink Nano Banana 2 Lite Beta。\n2. Nano Banana 请求固定使用 1K 轻量协议，不再发送该模型不支持的 Seedream 参数。\n3. 图片编辑最多携带 14 张参考图，并由后端统一校验请求字段。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.7z",
-    "sha256": "1974974af5f0d972ecf903f296a2a058aab73424e8351ffd9c5b787a529a90c6",
-    "size": 187897029
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.7z",
+    "sha256": "4d4f551f479ef6159569a2bc2e704dfe3ec11bb3da39e4d21fa0cb219e2875c9",
+    "size": 187681053
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.zip",
-    "sha256": "eff109b6f1ab13c21430427f1bc84826339820ae587f9c5917c05eadb85e6861",
-    "size": 273941790
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.zip",
+    "sha256": "b7aaf9c274aec085cca5536af7dcf1b385c1ca240540ee9bbf99d55882a636d0",
+    "size": 273015121
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.exe",
-    "sha256": "4bb531c2a14b5ed0362be6352dc7cad920ef0ff9d1e24d5dbd83337b2a6437b1",
-    "size": 214112375,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.exe",
+    "sha256": "575f55c631741bdc4a48f923324c4f50dc3df2960dd1c445c21e6b5d56aec619",
+    "size": 213236682,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.exe.blockmap"
   },
   "patches": []
 }
