@@ -1,21 +1,21 @@
 {
-  "version": "0.2.41",
-  "notes": "熊猫矩阵 0.2.41 更新公告\n\n1. 账号管理全面以云端规范账号为唯一权威，打开业务、检测状态、MCN、磁力金牛和发布都精准对应当前账号，不再串用活动账号或同名账号。\n2. 删除账号会先停止登录与保活同步，等待在途任务结束并确认云端记录已删除，再清理本机数据，解决账号删除后又重新出现的问题。\n3. 账号包导入会分别建立小店、创作者和磁力金牛会话，并保留云端已验证的新登录态；手机号和外部浏览器登录的超时与错误提示也更稳定。\n4. 网络错误、非 JSON、普通业务失败和无明确掉线信息的 401/403 不再误报离线；只有平台明确返回登录失效才标记掉线，其余保持待复检。\n5. Chrome Profile、Cookie 和金牛广告户按工作区与账号严格隔离，旧设备刷新会话不再覆盖云端最新昵称、代理、设备指纹等主资料。\n6. 修复共享云端账号清单被短超时意外取消、开发客户端读取云端账号不稳定，以及任务中心超长错误文本撑宽页面的问题。\n",
+  "version": "0.2.44",
+  "notes": "熊猫矩阵 0.2.44 更新公告\n\n1. 账号管理、视频二创和其他业务统一使用当前云端规范账号；店、创、牛三个入口精准对应当前账号，不再按昵称、首账号或旧工作区数据兜底。\n2. 新增账号与三业务登录态的原子云端快照，并使用加密本机缓存和后台预取；首次打开更快，写入冲突时整包回滚，不会出现只同步一半。\n3. 删除账号新增持久围栏和重启补偿，旧保活、Cookie 同步和缓存目录都不能让已删账号复活；批量删除中单个失败不会影响其余账号。\n4. 优化小店、创作者和磁力金牛打开链路，修复 Cookie 过大导致 HTTP 431、旧票覆盖新票、金牛欢迎页误报正常、重复启动 Chrome 和跨账号响应误判。\n5. 启动阶段云端任务改为低优先级串行执行，自动保活固定四小时逐账号运行；普通页面刷新不再触发全量检测，瞬时网络异常也不会把账号直接标红。\n6. 后端新增账号快照事务、状态写入限流、统一数据库锁顺序和连接容量保护；临时 401、503 或用户库抖动会短重试，账号读取与业务请求更稳定。\n7. 本次同时包含此前尚未公开推送的 0.2.42、0.2.43 账号目录与三业务入口改进，客户端将从线上 0.2.41 直接升级到 0.2.44。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.41/panda-matrix-0.2.41.7z",
-    "sha256": "7e534e60bb081f4352ffca0632dd1ed05e6f62bd71da01fa1e52e1b5f864f6eb",
-    "size": 187795939
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.7z",
+    "sha256": "1974974af5f0d972ecf903f296a2a058aab73424e8351ffd9c5b787a529a90c6",
+    "size": 187897029
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.41/panda-matrix-0.2.41.zip",
-    "sha256": "e8d292cba6844218fd678e67ac3bfc4d2b466244532c1c4fac6d4d8adf02e8d5",
-    "size": 273777166
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.zip",
+    "sha256": "eff109b6f1ab13c21430427f1bc84826339820ae587f9c5917c05eadb85e6861",
+    "size": 273941790
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.41/panda-matrix-0.2.41.exe",
-    "sha256": "6c7731933368395da508daef86ae9b9f69421c4763d2d6a95dfe7f1c7e066707",
-    "size": 214000333,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.41/panda-matrix-0.2.41.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.exe",
+    "sha256": "4bb531c2a14b5ed0362be6352dc7cad920ef0ff9d1e24d5dbd83337b2a6437b1",
+    "size": 214112375,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.44/panda-matrix-0.2.44.exe.blockmap"
   },
   "patches": []
 }
