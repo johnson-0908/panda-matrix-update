@@ -1,21 +1,21 @@
 {
-  "version": "0.2.47",
-  "notes": "熊猫矩阵 0.2.47 更新公告\n\n1. 优化小店打开速度：CDP 确认业务页面已打开后立即结束前台等待，严格登录态核验继续在后台完成。\n2. 打开小店的进度弹窗现在支持手动关闭；关闭弹窗不会关闭已打开的小店，也不会中断后台状态检测。\n3. 修复首次进入小店时侧栏、顶部入口等界面不完整，必须手动刷新后才恢复的问题；客户端会自动核对并进行一次有界刷新。\n4. 修复账号实际能进入小店但列表仍显示异常，以及首屏短暂可见、稍后跳登录却没有及时更新状态的问题。\n5. 后台确认的新小店 Cookie 会继续写回当前账号的云端业务会话，旧检测结果不会覆盖新打开任务的状态。",
+  "version": "0.2.48",
+  "notes": "熊猫矩阵 0.2.48 更新公告\n\n1. 修复有效老 CK 在商业端补票时被单独轮换的 passToken 覆盖，导致小店先进入工作台、数秒后又跳登录页的问题。\n2. 修复同一份 CK 导入其他客户端可以使用，但熊猫矩阵因旧 Chrome Profile 残留同名票据而登录失败的问题。\n3. 小店打开时继续以当前工作区云端 CK 为权威，仅清理 8 类同名旧小店票据，不影响浏览历史和其他业务数据。\n4. CK 导入现在会强制换取同一组最新小店票据，并同步到小店、创作者和磁力金牛，避免三个入口使用不同批次登录态。\n5. 已用参考 CK、持久 Profile 冲突场景和 12 个云端账号完成严格登录态回归；正常账号可稳定进入，明确失效账号会准确显示异常。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.7z",
-    "sha256": "296ebe2a9607e1d5acbb5ceddaa685ef8e58e7d294bd4d8ac5c0173cb69115c0",
-    "size": 211702953
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.48/panda-matrix-0.2.48.7z",
+    "sha256": "6482740cdebfb2ef58f0351910fd1a2be1cf06dd7b593f72debd111bc68d4eb6",
+    "size": 211696889
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.zip",
-    "sha256": "4c07e2c9be521fe80d521de9acf25a24d673ed3c8ad7e9cce7b717026b5c7be3",
-    "size": 309503255
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.48/panda-matrix-0.2.48.zip",
+    "sha256": "e836ab95055baf76bc067ff8dbc4582d5c6edbe3b592fdd4baecca90d8ba8d9c",
+    "size": 309498260
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.exe",
-    "sha256": "3460a364485b302d0e80498b6424020f8346432b7fbb054ec2976645f205017c",
-    "size": 240010315,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.48/panda-matrix-0.2.48.exe",
+    "sha256": "4e34c1aee75724ccda401893f118c4e62e74089bce80d589bf4914e1fac8b1b3",
+    "size": 240003465,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.48/panda-matrix-0.2.48.exe.blockmap"
   },
   "patches": []
 }
