@@ -1,21 +1,21 @@
 {
-  "version": "0.2.49",
-  "notes": "v0.2.49：登录态过期的老账号现在也能正常打开小店；同时保存快手每次下发的最新登录凭据，账号不再越用越容易掉线。账号导入支持章鱼带货「导出所有CK」的 xlsx。",
+  "version": "0.2.50",
+  "notes": "v0.2.50：批量导入账号改为并行处理并新增进度弹窗，几十个账号的导入时间大幅缩短；「检测小店状态」同时检测多个账号，整轮约缩短到原来的三分之一。修复一批实际能正常打开小店的账号被误标为「异常」的问题；这类凭据已无法续期但仍可使用的账号改为标记「待重登」，并自动转入更密集的保活。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.49/panda-matrix-0.2.49.7z",
-    "sha256": "bd07bdb64ff0f51035f3e447b7b1611375683c96d565e96dabbf584196c54182",
-    "size": 211706697
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.50/panda-matrix-0.2.50.7z",
+    "sha256": "e5705f59c6cf817ee344502286e22f1f6bac2a9ecded2680b553b76e283f542a",
+    "size": 211714095
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.49/panda-matrix-0.2.49.zip",
-    "sha256": "2c35071145aad8c6406cce8f92d5b8dce7845bc432aa726fbaa6ee78f7620ed7",
-    "size": 309505726
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.50/panda-matrix-0.2.50.zip",
+    "sha256": "19b464bdbf9adb5dfe8f7d5c6521b0fd6c90daf452b80e771b67c092091af041",
+    "size": 309522694
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.49/panda-matrix-0.2.49.exe",
-    "sha256": "35a24cc8bad7e6c7d130768ace6a789b4023398b38ff65d2f214a41156c64ef0",
-    "size": 240012080,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.49/panda-matrix-0.2.49.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.50/panda-matrix-0.2.50.exe",
+    "sha256": "62cdd100ef36ae01701a68919b23cda333253adc4622ce3c0b162ca22729bcbc",
+    "size": 240026858,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.50/panda-matrix-0.2.50.exe.blockmap"
   },
   "patches": []
 }
