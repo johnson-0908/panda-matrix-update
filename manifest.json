@@ -1,21 +1,21 @@
 {
-  "version": "0.2.45",
-  "notes": "熊猫矩阵 0.2.45 更新公告\n\n1. 图片混剪 V2 默认生图模型切换为 EvoLink Nano Banana 2 Lite Beta。\n2. Nano Banana 请求固定使用 1K 轻量协议，不再发送该模型不支持的 Seedream 参数。\n3. 图片编辑最多携带 14 张参考图，并由后端统一校验请求字段。",
+  "version": "0.2.47",
+  "notes": "熊猫矩阵 0.2.47 更新公告\n\n1. 优化小店打开速度：CDP 确认业务页面已打开后立即结束前台等待，严格登录态核验继续在后台完成。\n2. 打开小店的进度弹窗现在支持手动关闭；关闭弹窗不会关闭已打开的小店，也不会中断后台状态检测。\n3. 修复首次进入小店时侧栏、顶部入口等界面不完整，必须手动刷新后才恢复的问题；客户端会自动核对并进行一次有界刷新。\n4. 修复账号实际能进入小店但列表仍显示异常，以及首屏短暂可见、稍后跳登录却没有及时更新状态的问题。\n5. 后台确认的新小店 Cookie 会继续写回当前账号的云端业务会话，旧检测结果不会覆盖新打开任务的状态。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.7z",
-    "sha256": "4d4f551f479ef6159569a2bc2e704dfe3ec11bb3da39e4d21fa0cb219e2875c9",
-    "size": 187681053
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.7z",
+    "sha256": "296ebe2a9607e1d5acbb5ceddaa685ef8e58e7d294bd4d8ac5c0173cb69115c0",
+    "size": 211702953
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.zip",
-    "sha256": "b7aaf9c274aec085cca5536af7dcf1b385c1ca240540ee9bbf99d55882a636d0",
-    "size": 273015121
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.zip",
+    "sha256": "4c07e2c9be521fe80d521de9acf25a24d673ed3c8ad7e9cce7b717026b5c7be3",
+    "size": 309503255
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.exe",
-    "sha256": "575f55c631741bdc4a48f923324c4f50dc3df2960dd1c445c21e6b5d56aec619",
-    "size": 213236682,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.45/panda-matrix-0.2.45.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.exe",
+    "sha256": "3460a364485b302d0e80498b6424020f8346432b7fbb054ec2976645f205017c",
+    "size": 240010315,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.47/panda-matrix-0.2.47.exe.blockmap"
   },
   "patches": []
 }
