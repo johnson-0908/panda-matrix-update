@@ -1,21 +1,21 @@
 {
-  "version": "0.2.58",
-  "notes": "v0.2.58：素材库混剪的商品来源新增「从分配ID库随机抽」——不用一个个挑货架，每个账号随机抽几个已分配给你的商品，并自动跳过该账号发过的商品；同时修复成片里中文全变成方框的问题（封面标题和烧录字幕都受影响）。",
+  "version": "0.2.59",
+  "notes": "v0.2.59：修复「雷霆」模式发出去的作品过几小时变成一片彩色噪点、原画面消失的问题，现在默认用更稳的混行方式，平台二次转码后画面依然正常；修复磁力金牛净佣金按广告户个数翻倍，成交额与佣金改为按账号显示一份并新增「净利润」；修复重启后账号出口 IP 显示成没配置、实际仍在走代理；修复部分账号登录态正常却被判「创作者平台登录态不可用」。素材库混剪的商品来源、每号条数、已挑商品和各项开关切页面后会保留，硬件加速手动选过不再被自动改回。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.7z",
-    "sha256": "26281cbcfbb15706c1b06d10114159a6594f50172335f05ef2f7f888db262a12",
-    "size": 211791846
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.59/panda-matrix-0.2.59.7z",
+    "sha256": "c5a5923961db7dadb0da93d246d9d2c766a129f330c6932c435a7da5047af028",
+    "size": 211812973
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.zip",
-    "sha256": "5ea07981f9f21345c2f7fb4c84e4eba5e8209eb4ec096f917e3c4b5cac036866",
-    "size": 309639906
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.59/panda-matrix-0.2.59.zip",
+    "sha256": "a2795d5237baab79b6a593a10e6a5b9edffcd1da0eec4759409648ca857f936b",
+    "size": 309660141
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.exe",
-    "sha256": "fc2868580353b3c86acde3a039a8751975aaf15db6bea04928dd9747ef74ac3d",
-    "size": 240123099,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.59/panda-matrix-0.2.59.exe",
+    "sha256": "663ec4fe362c95840b153cfd173b3ab38ce119a9f74d6a019e9c338a42e7160c",
+    "size": 240140159,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.59/panda-matrix-0.2.59.exe.blockmap"
   },
   "patches": []
 }
