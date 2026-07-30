@@ -1,21 +1,21 @@
 {
-  "version": "0.2.60",
-  "notes": "v0.2.60：我的货架新增「按ID上架」，粘贴一串商品ID（每行一个）就能批量加到多个账号的货架，不用先在列表里一个个找；修复部分商品上架时提示「素材授权确认弹框校验」、怎么试都加不进货架的问题，现在会自动确认素材授权。",
+  "version": "0.2.61",
+  "notes": "v0.2.61：上架遇到平台的确认弹框（承诺函、商家协议、纳税、成长期限单、纯三方升级等）现在会自动确认后重试，能自动上架的商品更多了；确实上不了架的商品会直接说清原因并标出平台的拦截类型，不再反复空转重试。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.60/panda-matrix-0.2.60.7z",
-    "sha256": "e0cc3321dab8000d5f784a9e6c49fc4bc3b6e692f83e00ad8613ecb174f9217c",
-    "size": 211804873
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.7z",
+    "sha256": "b515e6c5944ac4363c5e656aca5ba2282216291ff4914dfdcd0c1d3c455d46ec",
+    "size": 211812307
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.60/panda-matrix-0.2.60.zip",
-    "sha256": "29a511e6948bbae2819a153991b1f773fdb2dbce14abaa860fa034a8f38772c5",
-    "size": 309663115
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.zip",
+    "sha256": "82472c7335fa72cb5b6cfe693636ea0400405ccf6f534c680f2c4f1807b256e0",
+    "size": 309671863
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.60/panda-matrix-0.2.60.exe",
-    "sha256": "f31b462c623f90369e9221b6d6d95bce881b8f70f0650216c1b9df57394d1d11",
-    "size": 240140152,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.60/panda-matrix-0.2.60.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.exe",
+    "sha256": "3e875a023caafd79beeffa66a24a669c8c700247d39fd342a2d1e4e5dcd8fa1d",
+    "size": 240146773,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.exe.blockmap"
   },
   "patches": []
 }
