@@ -1,21 +1,21 @@
 {
-  "version": "0.2.57",
-  "notes": "v0.2.57：修复部分电脑做素材库混剪时每条视频都被判成「全程有人脸」、最后只提示「素材不足」的问题——人脸检测在显卡带不动时会自动改用 CPU 继续，慢一些但能正常出素材，确实跑不动时也会直接说明真实原因。本版同时包含 0.2.55 / 0.2.56 的全部内容：账号级出口 IP 配置、分配ID带货、雷霆二创模式、素材库混剪 AI 讲解配音、金牛多广告户支持等。",
+  "version": "0.2.58",
+  "notes": "v0.2.58：素材库混剪的商品来源新增「从分配ID库随机抽」——不用一个个挑货架，每个账号随机抽几个已分配给你的商品，并自动跳过该账号发过的商品；同时修复成片里中文全变成方框的问题（封面标题和烧录字幕都受影响）。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.57/panda-matrix-0.2.57.7z",
-    "sha256": "132f41743d8a304aaddc415f0d563c79668ba410de2c1f444ff3b3d82bd4807b",
-    "size": 211785895
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.7z",
+    "sha256": "26281cbcfbb15706c1b06d10114159a6594f50172335f05ef2f7f888db262a12",
+    "size": 211791846
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.57/panda-matrix-0.2.57.zip",
-    "sha256": "3ed6933dbc6ae796023587e91317cbb7bfd9aad08c2800016c6417d0b8f2d3a6",
-    "size": 309630425
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.zip",
+    "sha256": "5ea07981f9f21345c2f7fb4c84e4eba5e8209eb4ec096f917e3c4b5cac036866",
+    "size": 309639906
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.57/panda-matrix-0.2.57.exe",
-    "sha256": "a0ea6d5165acd35bc5b988b7129d39a638e95f61e08c8cdba623ddaeaa4baf1b",
-    "size": 240113882,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.57/panda-matrix-0.2.57.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.exe",
+    "sha256": "fc2868580353b3c86acde3a039a8751975aaf15db6bea04928dd9747ef74ac3d",
+    "size": 240123099,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.58/panda-matrix-0.2.58.exe.blockmap"
   },
   "patches": []
 }
