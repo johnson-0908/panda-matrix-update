@@ -1,21 +1,21 @@
 {
-  "version": "0.2.61",
-  "notes": "v0.2.61：上架遇到平台的确认弹框（承诺函、商家协议、纳税、成长期限单、纯三方升级等）现在会自动确认后重试，能自动上架的商品更多了；确实上不了架的商品会直接说清原因并标出平台的拦截类型，不再反复空转重试。",
+  "version": "0.2.62",
+  "notes": "v0.2.62：修复我的货架偶发大面积「读取橱窗超时」——个别账号云端登录态拉取卡住不再拖住其他账号，正在看的页面优先加载；磁力金牛读数遇登录态过期自动重签一次再取，减少突然报「登录失败」。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.7z",
-    "sha256": "b515e6c5944ac4363c5e656aca5ba2282216291ff4914dfdcd0c1d3c455d46ec",
-    "size": 211812307
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.62/panda-matrix-0.2.62.7z",
+    "sha256": "dc59ff72db7b689d48f34fd2b878afa6298d3e29864cc5568351b41490841658",
+    "size": 211824272
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.zip",
-    "sha256": "82472c7335fa72cb5b6cfe693636ea0400405ccf6f534c680f2c4f1807b256e0",
-    "size": 309671863
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.62/panda-matrix-0.2.62.zip",
+    "sha256": "2152ba2b9cf5110f11ab5de544d524927d085d11d87e00c27c6301dbdd93d0ed",
+    "size": 309675810
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.exe",
-    "sha256": "3e875a023caafd79beeffa66a24a669c8c700247d39fd342a2d1e4e5dcd8fa1d",
-    "size": 240146773,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.61/panda-matrix-0.2.61.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.62/panda-matrix-0.2.62.exe",
+    "sha256": "b1511fc6e48a47a0e67d0ee230f3cd654241ee9beff6bb4431a71f5910181713",
+    "size": 240149134,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.62/panda-matrix-0.2.62.exe.blockmap"
   },
   "patches": []
 }
