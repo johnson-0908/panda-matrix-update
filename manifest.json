@@ -1,21 +1,21 @@
 {
-  "version": "0.2.66",
-  "notes": "v0.2.66：磁力金牛余额预警支持只提醒勾选的账号——在预警设置里勾上要盯的账号或广告户，只有这些行余额不足才提醒；不勾选则和以前一样全部提醒（含以后新增的账号）。",
+  "version": "0.2.67",
+  "notes": "v0.2.67：修复部分较早型号显卡（GTX 10 系等）跑素材库混剪时人脸识别用不上显卡加速、只能靠 CPU 硬跑导致奇慢的问题（下次使用会自动下载新版识别运行时，约 1.6G，一次性）；一键删除计划新增「零消耗/零出单」勾选与更全的时间快捷键；批量建计划的失败原因会拆成「重复 X、上限 Y」看得懂。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.7z",
-    "sha256": "04f5c721aa5a48d7f825b40e8b6e27c5e8090eb8f347510c8e6d54719453b4d5",
-    "size": 210564490
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.7z",
+    "sha256": "9248d41b23027bd14359b6ccee2cc74dc5a3b380ce67018adaca470e1435bbb7",
+    "size": 210569570
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.zip",
-    "sha256": "a749d86bf641661c41f99539a0631759c16f546366246a908b6b736cf1548f21",
-    "size": 307827794
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.zip",
+    "sha256": "90429e3bcb341b2c54d0ae27a3dd98adc0c554c08c12019aac33453bd1169dea",
+    "size": 307832973
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.exe",
-    "sha256": "6b97179efd2fbaddb6e85794cfc899c3b2bc1b33fb51196e0e4950389dd36f56",
-    "size": 238897056,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.exe",
+    "sha256": "7f85798d8e1a096135c6cc947677b33e125608bce5e328cf9c2a71cebbf8a162",
+    "size": 238901657,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.exe.blockmap"
   },
   "patches": []
 }
