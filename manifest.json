@@ -1,21 +1,21 @@
 {
-  "version": "0.2.63",
-  "notes": "v0.2.63：新增「侠客帧」二创模式（真隔行去重，成片上传后画面保持原片清晰）；视频解析支持自填 evolink key 直连提速；修复字幕/水印中文字体变方框。",
+  "version": "0.2.64",
+  "notes": "v0.2.64：磁盘清理支持清理成片、选品下载、素材库等占空间的大头（设置→数据→磁盘占用分析与清理，按「保留最近 7/30/90 天」只删旧文件、保留最近成果）；新增磁盘空间不足提醒（所在盘可用空间过低时顶部弹条 + 设置按钮红点 + 一键进入清理页，避免磁盘写满导致下载/二创失败）。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.63/panda-matrix-0.2.63.7z",
-    "sha256": "b698331159383c2c71048c9486d72a00b7abab5c8526a146b682f8a94742835b",
-    "size": 211833059
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.7z",
+    "sha256": "3cd7a208fbbf00425aaa16c9fbf85a9f838221f3cbe909f7386b2ce010a2493e",
+    "size": 210594605
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.63/panda-matrix-0.2.63.zip",
-    "sha256": "9f23cff0c93b7d92b86379e2db9cb6bfc127455173425dee4c38d5243e4ffcad",
-    "size": 309705672
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.zip",
+    "sha256": "e2a8afc752ef90b04d95f311efb078257bdc8e02494492d75e60c5c2ab4e4cf8",
+    "size": 307840530
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.63/panda-matrix-0.2.63.exe",
-    "sha256": "152940a71fd9fd65bbd2c9c4f7275d9c3f188f462a37e978748c9e14c64b1edd",
-    "size": 240166151,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.63/panda-matrix-0.2.63.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.exe",
+    "sha256": "12d257287655fea3dbc359e74f30729d4800d9faf30981e068cbb11131b14efa",
+    "size": 238818767,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.exe.blockmap"
   },
   "patches": []
 }
