@@ -1,21 +1,21 @@
 {
-  "version": "0.2.65",
-  "notes": "v0.2.65：修复上一版（0.2.64）部分电脑更新后启动报「A JavaScript error occurred in the main process」直接打不开的问题——若已遇到，重新安装一次最新版即可恢复。上一版的磁盘清理（可清成片/选品下载/素材库等大头，按保留最近 7/30/90 天只删旧文件）与磁盘空间不足提醒功能一并保留。",
+  "version": "0.2.66",
+  "notes": "v0.2.66：磁力金牛余额预警支持只提醒勾选的账号——在预警设置里勾上要盯的账号或广告户，只有这些行余额不足才提醒；不勾选则和以前一样全部提醒（含以后新增的账号）。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.7z",
-    "sha256": "1a9925cc5cab1eda643e02f53ef1a7d544806de05fa11475fa9e8d7b2497c2e8",
-    "size": 210561518
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.7z",
+    "sha256": "04f5c721aa5a48d7f825b40e8b6e27c5e8090eb8f347510c8e6d54719453b4d5",
+    "size": 210564490
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.zip",
-    "sha256": "28f9dc0623f10f8a2fc337d396e2e9729c55de2b7b631815b80758670b3ecc65",
-    "size": 307823155
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.zip",
+    "sha256": "a749d86bf641661c41f99539a0631759c16f546366246a908b6b736cf1548f21",
+    "size": 307827794
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.exe",
-    "sha256": "4c0faf176916a7b78a4fb1ed4c693e767ac601f723c9f1d69065b435238fc452",
-    "size": 238894155,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.exe",
+    "sha256": "6b97179efd2fbaddb6e85794cfc899c3b2bc1b33fb51196e0e4950389dd36f56",
+    "size": 238897056,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.66/panda-matrix-0.2.66.exe.blockmap"
   },
   "patches": []
 }
