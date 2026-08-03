@@ -1,21 +1,21 @@
 {
-  "version": "0.2.64",
-  "notes": "v0.2.64：磁盘清理支持清理成片、选品下载、素材库等占空间的大头（设置→数据→磁盘占用分析与清理，按「保留最近 7/30/90 天」只删旧文件、保留最近成果）；新增磁盘空间不足提醒（所在盘可用空间过低时顶部弹条 + 设置按钮红点 + 一键进入清理页，避免磁盘写满导致下载/二创失败）。",
+  "version": "0.2.65",
+  "notes": "v0.2.65：修复上一版（0.2.64）部分电脑更新后启动报「A JavaScript error occurred in the main process」直接打不开的问题——若已遇到，重新安装一次最新版即可恢复。上一版的磁盘清理（可清成片/选品下载/素材库等大头，按保留最近 7/30/90 天只删旧文件）与磁盘空间不足提醒功能一并保留。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.7z",
-    "sha256": "3cd7a208fbbf00425aaa16c9fbf85a9f838221f3cbe909f7386b2ce010a2493e",
-    "size": 210594605
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.7z",
+    "sha256": "1a9925cc5cab1eda643e02f53ef1a7d544806de05fa11475fa9e8d7b2497c2e8",
+    "size": 210561518
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.zip",
-    "sha256": "e2a8afc752ef90b04d95f311efb078257bdc8e02494492d75e60c5c2ab4e4cf8",
-    "size": 307840530
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.zip",
+    "sha256": "28f9dc0623f10f8a2fc337d396e2e9729c55de2b7b631815b80758670b3ecc65",
+    "size": 307823155
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.exe",
-    "sha256": "12d257287655fea3dbc359e74f30729d4800d9faf30981e068cbb11131b14efa",
-    "size": 238818767,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.64/panda-matrix-0.2.64.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.exe",
+    "sha256": "4c0faf176916a7b78a4fb1ed4c693e767ac601f723c9f1d69065b435238fc452",
+    "size": 238894155,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.65/panda-matrix-0.2.65.exe.blockmap"
   },
   "patches": []
 }
