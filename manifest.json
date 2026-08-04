@@ -1,21 +1,21 @@
 {
-  "version": "0.2.67",
-  "notes": "v0.2.67：修复部分较早型号显卡（GTX 10 系等）跑素材库混剪时人脸识别用不上显卡加速、只能靠 CPU 硬跑导致奇慢的问题（下次使用会自动下载新版识别运行时，约 1.6G，一次性）；一键删除计划新增「零消耗/零出单」勾选与更全的时间快捷键；批量建计划的失败原因会拆成「重复 X、上限 Y」看得懂。",
+  "version": "0.2.68",
+  "notes": "v0.2.68：彻底修复部分较早型号显卡（GTX 10 系等）人脸识别用不上显卡加速的问题（上个版本只修好一半，更新后会自动下载新版识别运行时，约 1.6G，一次性）；修复部分电脑源视频一条都下载不下来的问题，改由云端取播放地址、不再依赖本机签名组件；素材库混剪备料明显提速；发布到小店时成片过大会自动压缩后再上传，上传断网只重传断掉的那一小段；同框检测新增「自动执行」、磁盘清理新增「不保留（全部清理）」。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.7z",
-    "sha256": "9248d41b23027bd14359b6ccee2cc74dc5a3b380ce67018adaca470e1435bbb7",
-    "size": 210569570
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.7z",
+    "sha256": "56967d609abdf07b7c469d59880cce1f6e0499ba4a13546b1fd1bbbde33441f7",
+    "size": 211866316
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.zip",
-    "sha256": "90429e3bcb341b2c54d0ae27a3dd98adc0c554c08c12019aac33453bd1169dea",
-    "size": 307832973
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.zip",
+    "sha256": "a0b3af30abb060b2c1171a3bdcbb563addebfe4f6e4efe895b8470ccd8ffd647",
+    "size": 309749981
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.exe",
-    "sha256": "7f85798d8e1a096135c6cc947677b33e125608bce5e328cf9c2a71cebbf8a162",
-    "size": 238901657,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.67/panda-matrix-0.2.67.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.exe",
+    "sha256": "834e8955583e9b7dad2bff9909165206a51d833921baa37ba02abf6c175a741a",
+    "size": 240198024,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.exe.blockmap"
   },
   "patches": []
 }
