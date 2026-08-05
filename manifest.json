@@ -1,21 +1,21 @@
 {
-  "version": "0.2.68",
-  "notes": "v0.2.68：彻底修复部分较早型号显卡（GTX 10 系等）人脸识别用不上显卡加速的问题（上个版本只修好一半，更新后会自动下载新版识别运行时，约 1.6G，一次性）；修复部分电脑源视频一条都下载不下来的问题，改由云端取播放地址、不再依赖本机签名组件；素材库混剪备料明显提速；发布到小店时成片过大会自动压缩后再上传，上传断网只重传断掉的那一小段；同框检测新增「自动执行」、磁盘清理新增「不保留（全部清理）」。",
+  "version": "0.2.69",
+  "notes": "v0.2.69：磁盘清理新增「一键清空缓存」，几秒清完二创/混剪备料、临时封面和配音缓存，成片与商品素材库不动；修复磁盘清理点了没反应、几十 G 空间怎么都下不去的问题，以及成片明明占着大量空间却勾不上、清不掉的问题；二创给每条视频存的源视频副本现在跟着成片一起删，素材库混剪备料用完即删、异常退出残留的备料下次启动自动清掉；二创「模式3」换用新的画面处理方式（出片效果与上一版不同）；视频挂车等待时间由 5 分钟改为 10 分钟，更稳地避开平台风控（代价是每条视频挂车晚 5 分钟）；设置－系统新增「一键导出日志」，一键打包完整日志到桌面发给客服。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.7z",
-    "sha256": "56967d609abdf07b7c469d59880cce1f6e0499ba4a13546b1fd1bbbde33441f7",
-    "size": 211866316
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.69/panda-matrix-0.2.69.7z",
+    "sha256": "4b349f863174e6af4d598e1427c9399aae6c8e088acf21453937d63732ff5f54",
+    "size": 211883871
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.zip",
-    "sha256": "a0b3af30abb060b2c1171a3bdcbb563addebfe4f6e4efe895b8470ccd8ffd647",
-    "size": 309749981
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.69/panda-matrix-0.2.69.zip",
+    "sha256": "c370fe0426456647259986572ade698758f822f7a1a3ce22500ce47f498d276b",
+    "size": 309776093
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.exe",
-    "sha256": "834e8955583e9b7dad2bff9909165206a51d833921baa37ba02abf6c175a741a",
-    "size": 240198024,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.68/panda-matrix-0.2.68.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.69/panda-matrix-0.2.69.exe",
+    "sha256": "722854c3164f760cd8eb78daa1e847214dfb36f103cab1678b2b027cdbbed49d",
+    "size": 240216793,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.69/panda-matrix-0.2.69.exe.blockmap"
   },
   "patches": []
 }
