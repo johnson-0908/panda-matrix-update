@@ -1,21 +1,21 @@
 {
-  "version": "0.2.70",
-  "notes": "v0.2.70：修复上一版「二创一条都出不来、全部提示素材生成失败」的严重问题（用 0.2.69 的请务必更新）；二创「模式3」画面处理改回 0.2.69 之前的老算法；修复成片里可能带着别人家店招、购买按钮的问题（改为整屏查找浮层）；修复部分电脑过脸一直用 CPU 跑的问题；修复混剪讲解音色设置不生效。",
+  "version": "0.2.71",
+  "notes": "v0.2.71：修复混剪讲解偶尔整个商品所有账号一起报「素材生成失败」的问题——配音其实早就全部生成好了，只是收尾时程序意外退出被当成失败作废，现在按实际生成结果判定，不再白跑一批；挂车一直挂不上时终于看得到原因，任务中心直接显示「N 条挂车受阻，正在自动重试」和具体原因（多数是该账号小店掉登录），不再只有一个转圈的「待挂车」；账号小店掉登录时日志会记录并在持续一段时间后明确提示去「账号管理」重新登录，重登后几分钟内自动补挂、不会丢车；「先发后挂」开关说明文字改为正确的 10 分钟；配音相关问题以后可随客户端更新直接修复，不用再重新下载约 300M 的语音运行时。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.70/panda-matrix-0.2.70.7z",
-    "sha256": "cab3a70776b6afbb3a9d67b5710c00498724dd3818e3b1c27cb2dd138ac8ab85",
-    "size": 211891433
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.7z",
+    "sha256": "cdb6f894fe88d2638ff9120608bdb2f9eb84d615aceecdccaed56efd677ce3bc",
+    "size": 211895793
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.70/panda-matrix-0.2.70.zip",
-    "sha256": "6f44207c06bb22ce61caa362fce21b222b36779527db5029361802fd4660e3b1",
-    "size": 309785451
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.zip",
+    "sha256": "80fea7ecb5e76abf93e57eabdaf047093f9ff40e5da0d7ff4ea15e1be81640ee",
+    "size": 309790951
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.70/panda-matrix-0.2.70.exe",
-    "sha256": "3c01528ed4875a2a712be812bf72ab66f0b6af305f2f80c3b2f19ecf9385e2ed",
-    "size": 240224374,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.70/panda-matrix-0.2.70.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.exe",
+    "sha256": "66d1d165e79d0f8364a6814641ff3a04aeb0746f988cf7609d9771b41e8b4562",
+    "size": 240227933,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.exe.blockmap"
   },
   "patches": []
 }
