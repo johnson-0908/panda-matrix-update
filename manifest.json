@@ -1,21 +1,21 @@
 {
-  "version": "0.2.71",
-  "notes": "v0.2.71：修复混剪讲解偶尔整个商品所有账号一起报「素材生成失败」的问题——配音其实早就全部生成好了，只是收尾时程序意外退出被当成失败作废，现在按实际生成结果判定，不再白跑一批；挂车一直挂不上时终于看得到原因，任务中心直接显示「N 条挂车受阻，正在自动重试」和具体原因（多数是该账号小店掉登录），不再只有一个转圈的「待挂车」；账号小店掉登录时日志会记录并在持续一段时间后明确提示去「账号管理」重新登录，重登后几分钟内自动补挂、不会丢车；「先发后挂」开关说明文字改为正确的 10 分钟；配音相关问题以后可随客户端更新直接修复，不用再重新下载约 300M 的语音运行时。",
+  "version": "0.2.72",
+  "notes": "v0.2.72：修复带货视频发出去后标题是商品原标题（「牛仔裤男款夏季新款青少年直筒…」）甚至直接是一串商品编号的问题——现在发布前会自动改写成正常的口语化标题并配 4 个话题标签；「链接分发带货」「优选带货」这类来源在取不到商品名时，也不会再把功能名连着商品编号一起当标题发出去（如「链接分发带货262367723160」）；自动改写不可用时的兜底标题不再出现病句和半截词（以前「切菜器切丝器擦丝器厨房神器」会被压成「切菜器擦神器」、「洗衣液内衣专用洗衣粉」会被压成「…专用粉」）；英文名商品（如 Nike Air Force 1）不再被误当成商品编号丢掉；发布日志里会写明每条作品实际用的标题以及改写没生效的原因，不用等作品发出去才发现标题不对；服务器异常时读取云端模型配置最多等 10 秒，超时直接用兜底标题继续发，不再每条都卡住拖慢整批；无商品名时的通用标题从 4 条扩到 12 条，同一账号批量发布不容易撞出一模一样的标题；手动「素材库混剪」若上次异常退出，残留的临时素材目录会在下次启动时自动清理，不再一直占着磁盘。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.7z",
-    "sha256": "cdb6f894fe88d2638ff9120608bdb2f9eb84d615aceecdccaed56efd677ce3bc",
-    "size": 211895793
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.72/panda-matrix-0.2.72.7z",
+    "sha256": "02fe2e847730f5dd137cfb9f1590eed6650fdcc9cd49b1844c4d011fb5fbcd54",
+    "size": 211902633
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.zip",
-    "sha256": "80fea7ecb5e76abf93e57eabdaf047093f9ff40e5da0d7ff4ea15e1be81640ee",
-    "size": 309790951
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.72/panda-matrix-0.2.72.zip",
+    "sha256": "5d18da4de74ad39c730799e09879b2bb6a5c5e63bdabf73a02896b32acac759c",
+    "size": 309802117
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.exe",
-    "sha256": "66d1d165e79d0f8364a6814641ff3a04aeb0746f988cf7609d9771b41e8b4562",
-    "size": 240227933,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.71/panda-matrix-0.2.71.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.72/panda-matrix-0.2.72.exe",
+    "sha256": "5d056c5c769d540bddbae945e7021fd25ee4404785ca8f6618a24c784a10a6a8",
+    "size": 240234342,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.72/panda-matrix-0.2.72.exe.blockmap"
   },
   "patches": []
 }
