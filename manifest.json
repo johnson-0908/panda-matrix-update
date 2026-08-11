@@ -1,21 +1,21 @@
 {
-  "version": "0.2.74",
-  "notes": "v0.2.74：修复「素材库混剪·带货（自动发布）」拉取商品ID库超时导致整批任务一条没跑就全部失败；自备模型不再把你自己的密钥发到平台服务商；「重新检测 GPU」现在会当场把引擎拉起来真测一遍。",
+  "version": "0.2.75",
+  "notes": "v0.2.75：修复自备模型选 gemini-3.5-flash-lite / 3.6-flash / flash-latest 时素材库混剪整批解析失败（报「Request contains an invalid argument」、最后被说成素材不足）；顺带修好新版 Gemini 一直忽略「关闭思考」导致的白花钱，单条解析 token 少约四成。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.74/panda-matrix-0.2.74.7z",
-    "sha256": "024e22ef91e8b481d83a129ba18c4affd05ee57f7314430b3f8f1941d0d7b469",
-    "size": 211933663
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.75/panda-matrix-0.2.75.7z",
+    "sha256": "fd1b4700646ae7bc654e71a5947c50df142b90bf422b7b3e15ca2906e89dfbc4",
+    "size": 211932593
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.74/panda-matrix-0.2.74.zip",
-    "sha256": "780b170122baf52807f24b7b3cc3252bc6b54dfed38e2cc1b7e065bd57b3a586",
-    "size": 309845802
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.75/panda-matrix-0.2.75.zip",
+    "sha256": "3411ea31c49a06d41e35ff150ef962b5f2f228e7b73fa567810c870c94304c34",
+    "size": 309845600
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.74/panda-matrix-0.2.74.exe",
-    "sha256": "68c5016a04f96e05e26ce60f6fceebd13f1e2ee2ca1c0dc8833a2f7564ecf0dc",
-    "size": 240282714,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.74/panda-matrix-0.2.74.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.75/panda-matrix-0.2.75.exe",
+    "sha256": "c4abcaba739975de6b5648080e708dd7a062cd2001f37361c83b6591c1bd92be",
+    "size": 240282523,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.75/panda-matrix-0.2.75.exe.blockmap"
   },
   "patches": []
 }
