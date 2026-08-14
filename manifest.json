@@ -1,21 +1,21 @@
 {
-  "version": "0.2.77",
-  "notes": "v0.2.77：新增延迟挂车暂停、恢复和按发布台账重新挂车；带货备料会提前跳过失效商品；金牛直播计划迁移到 3.0 报表；修复跨账号/工作区的 Cookie 迟到回写；正式包不再携带 Renderer 原始工程，并对主进程、工作线程、preload 和业务 chunks 启用强制保护。另包含 v0.2.76 的 AI 服务独立入口、UniAPI Gemini 鉴权修复与未配置代理时强制直连。",
+  "version": "0.2.78",
+  "notes": "v0.2.78\n\n修复\n- 修复磁力金牛删除计划明明提示\"成功\"、回到列表计划却还在的问题：现在删完会回查确认计划真的消失才算成功，没删掉或查不到的会逐条写明原因。\n- 删除计划任务点了\"取消\"后会立即停下，不再继续跑完剩下的检查；批量删除之间加了间隔，减少因为请求太密被平台限流、导致明明删成功却报\"无法确认\"的情况。\n- 修复删除结果明细里失败条目被成功条目挤掉、想查哪条没删掉却翻不到的问题。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.77/panda-matrix-0.2.77.7z",
-    "sha256": "d217fba88ce7cf481525f0d15ae67047583cc8fb7f216fd74c3b5ece57bb5b69",
-    "size": 217029717
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.7z",
+    "sha256": "a10dbdc1a144d60aad555efbf6501e02a06558f316a386ddeb45a1ddc9b57175",
+    "size": 217026352
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.77/panda-matrix-0.2.77.zip",
-    "sha256": "575ca7a668a7436228624425b1a4bc403a86746950d7a2e425006e239837e0be",
-    "size": 319976527
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.zip",
+    "sha256": "3720ea42ca7901bdea71ec7293f88c6fc5bd5a3c4264ce95fc14958b7822630e",
+    "size": 319987239
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.77/panda-matrix-0.2.77.exe",
-    "sha256": "337f91f9a6c1b735f599f9cd8c498a74bd9f5f572db9c89a4223c02282719688",
-    "size": 247626236,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.77/panda-matrix-0.2.77.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.exe",
+    "sha256": "0c5dbfba1df52c4bab35d4d0dd1dd57d6ede8ab1576ae993e9543a056b9ff93c",
+    "size": 247624962,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.exe.blockmap"
   },
   "patches": []
 }
