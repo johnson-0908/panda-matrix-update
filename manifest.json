@@ -1,21 +1,21 @@
 {
-  "version": "0.2.78",
-  "notes": "v0.2.78\n\n修复\n- 修复磁力金牛删除计划明明提示\"成功\"、回到列表计划却还在的问题：现在删完会回查确认计划真的消失才算成功，没删掉或查不到的会逐条写明原因。\n- 删除计划任务点了\"取消\"后会立即停下，不再继续跑完剩下的检查；批量删除之间加了间隔，减少因为请求太密被平台限流、导致明明删成功却报\"无法确认\"的情况。\n- 修复删除结果明细里失败条目被成功条目挤掉、想查哪条没删掉却翻不到的问题。",
+  "version": "0.2.79",
+  "notes": "v0.2.79\n\n新功能\n- AI 服务现在可以选「熊猫 API」或「自定义」：选熊猫 API 只需填管理员发给你的 Key，服务地址不用管；选自定义就自己填服务地址和 Key，用自己的额度、不消耗积分。文本模型目前只开放 gemini-2.5-flash-lite。\n- 用熊猫 API 做视频时，每成功产出 1 条成片扣 1 积分，做失败不扣。没联网时扣费记录会先存在本机，联网后自动补上，不会漏账也不会重复扣。账号资料文案、封面标题、口播、分镜规划这些功能不收积分。\n- 素材库混剪自带背景音乐库，做混剪不用再自己准备配乐。\n\n修复\n- 修复每次自动更新后都会掉一批账号的问题：以前更新时会把运行中刚换到的最新登录票丢掉，重启后拿旧票去登录就被判失效。现在更新前和退出前都会先把最新登录票存到云端。\n- 保活检查在把账号判成「掉线」之前会先自动尝试换一次票，很多其实还能用的账号不会再被误报成需要重新扫码。\n- 磁力金牛自动下架检测重做，每条计划没通过的原因会逐条写清楚。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.7z",
-    "sha256": "a10dbdc1a144d60aad555efbf6501e02a06558f316a386ddeb45a1ddc9b57175",
-    "size": 217026352
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.7z",
+    "sha256": "e22c7983938104040df561c7cf04f95a563b1b707e3a035b2452ef50d001921f",
+    "size": 233460834
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.zip",
-    "sha256": "3720ea42ca7901bdea71ec7293f88c6fc5bd5a3c4264ce95fc14958b7822630e",
-    "size": 319987239
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.zip",
+    "sha256": "70c7f8445e89bd13b1971ece39a51f3a528ad3ec942a7d4fad434e5748f5910b",
+    "size": 336403991
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.exe",
-    "sha256": "0c5dbfba1df52c4bab35d4d0dd1dd57d6ede8ab1576ae993e9543a056b9ff93c",
-    "size": 247624962,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.78/panda-matrix-0.2.78.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.exe",
+    "sha256": "ae91ae07827b309d6902ee616b4014f1f1b6ed70798ec3c6d03cca28e49bc583",
+    "size": 264069518,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.exe.blockmap"
   },
   "patches": []
 }
