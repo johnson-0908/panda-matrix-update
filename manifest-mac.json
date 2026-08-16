@@ -1,16 +1,16 @@
 {
-  "version": "0.1.15",
-  "notes": "v0.1.15：磁力金牛商品全站推广(快手橱窗)增强——建计划自动带素材(系统推荐+小店视频)、ROI按策略(统一/保本/保本上浮、含手续费)、补充素材/删除计划、批量与一键跨账号新建/补充。",
+  "version": "0.2.80",
+  "notes": "",
   "arch": "arm64",
   "full": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15-arm64.zip",
-    "sha256": "b6d4f8a9ae8692ea320a96c26f2a4206935eabca21da6cdb74f9d97e6e4000bc",
-    "size": 147600601
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.80/panda-matrix-0.2.80-arm64.zip",
+    "sha256": "6ebd93c995161c4ddd5c3e497142343aa20102084076b72a090edfdb7aab10b5",
+    "size": 272909040
   },
   "dmg": {
-    "url": "https://ghfast.top/https://github.com/johnson-0908/panda-matrix-update/releases/download/v0.1.15/panda-matrix-0.1.15-arm64.dmg",
-    "sha256": "a32f94eb7661ae886a7e26eed967176b0efd0e5d2861d42bf6515945d68a7de5",
-    "size": 135751410
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.80/panda-matrix-0.2.80-arm64.dmg",
+    "sha256": "3de306dc8211d2b689714c84eee0975527b9785ba03472e4751b6ea88ca1f4a5",
+    "size": 256326948
   },
   "patches": []
 }
