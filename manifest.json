@@ -1,21 +1,21 @@
 {
-  "version": "0.2.79",
-  "notes": "v0.2.79\n\n新功能\n- AI 服务现在可以选「熊猫 API」或「自定义」：选熊猫 API 只需填管理员发给你的 Key，服务地址不用管；选自定义就自己填服务地址和 Key，用自己的额度、不消耗积分。文本模型目前只开放 gemini-2.5-flash-lite。\n- 用熊猫 API 做视频时，每成功产出 1 条成片扣 1 积分，做失败不扣。没联网时扣费记录会先存在本机，联网后自动补上，不会漏账也不会重复扣。账号资料文案、封面标题、口播、分镜规划这些功能不收积分。\n- 素材库混剪自带背景音乐库，做混剪不用再自己准备配乐。\n\n修复\n- 修复每次自动更新后都会掉一批账号的问题：以前更新时会把运行中刚换到的最新登录票丢掉，重启后拿旧票去登录就被判失效。现在更新前和退出前都会先把最新登录票存到云端。\n- 保活检查在把账号判成「掉线」之前会先自动尝试换一次票，很多其实还能用的账号不会再被误报成需要重新扫码。\n- 磁力金牛自动下架检测重做，每条计划没通过的原因会逐条写清楚。",
+  "version": "0.2.80",
+  "notes": "v0.2.80\n\n新功能\n- AI 服务的「用量」页在熊猫 API 模式下改为直接展示积分账单：每天产出几条成片、扣了多少积分、有没有暂存待补扣的，一目了然；自定义供应商模式继续显示 token 和费用明细。\n\n优化\n- 成片扣几积分跟着后台定价实时显示，界面不再固定写「1 积分」，后台调价后客户端即时同步。\n- 混剪成片不再用马赛克遮挡原视频里的字幕，改为给讲解字幕加半透明底色盖住原字幕位置，画面更干净，出片速度也略有提升。\n\n修复\n- 熊猫 API 和自定义供应商的消耗记录彻底分开：切换模式后不再看到另一个模式攒下的用量和费用，页面数据也会即时跟着切换刷新；老记录自动归入当前使用的模式。\n- 磁力金牛批量删除计划适配平台新限制：单次最多删 10 条，超过会自动分批删完，不再整批失败；中途出错会写明已删几条、剩几条，避免重复操作。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.7z",
-    "sha256": "e22c7983938104040df561c7cf04f95a563b1b707e3a035b2452ef50d001921f",
-    "size": 233460834
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.7z",
+    "sha256": "ad69318b1723b357b2ff956cbf3f97ad05980396dfe90f2d0e17a0193f37202e",
+    "size": 233465774
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.zip",
-    "sha256": "70c7f8445e89bd13b1971ece39a51f3a528ad3ec942a7d4fad434e5748f5910b",
-    "size": 336403991
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.zip",
+    "sha256": "bb5a2459ae77c0e57694aae2787b55a01c5025e60508d0e2e18fb411174a2dbc",
+    "size": 336411955
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.exe",
-    "sha256": "ae91ae07827b309d6902ee616b4014f1f1b6ed70798ec3c6d03cca28e49bc583",
-    "size": 264069518,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.79/panda-matrix-0.2.79.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.exe",
+    "sha256": "27ae4a531d6a40aa124e87386fa49d03c085f40de485f9a286afcc50b190a6a4",
+    "size": 264079551,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.exe.blockmap"
   },
   "patches": []
 }
