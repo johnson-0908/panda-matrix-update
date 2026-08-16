@@ -1,21 +1,21 @@
 {
-  "version": "0.2.80",
-  "notes": "v0.2.80\n\n新功能\n- 「AI 服务」用量页新增积分账单视图：熊猫 API 模式下按日展示成片产出、积分消耗与待补扣记录；自定义供应商模式仍展示 Token 用量与费用明细。\n\n优化\n- 成片积分单价与后台定价实时同步，调价后客户端即时生效。\n- 优化混剪成片的字幕处理方案：原视频字幕改由讲解字幕半透明衬底覆盖，画面更简洁，产出速度有所提升。\n\n修复\n- 修复切换 AI 供应商模式后消耗记录混用的问题：两种模式的用量与费用数据完全隔离，切换后页面即时刷新，历史记录自动归入对应模式。\n- 磁力金牛批量删除计划适配平台单次数量上限：超出上限自动分批执行；执行中断时明确提示已完成与剩余数量，避免整批失败与重复操作。",
+  "version": "0.2.81",
+  "notes": "v0.2.81\n\n新功能\n- 视频二创新增「麒麟」「苍穹」两种 AB 帧模式：分别采用网格艺术图交错与隔行场序合成方案，随机种子逐条变化，已完成真实发布链路验证，支持链接分发带货全流程。\n\n优化\n- 素材库混剪抽签自动跳过管理端标记「素材不足」的商品：分配 ID 库中素材检测不达标的商品不再进入抽签池，减少无效备料消耗。\n- 低核心数设备性能治理：人脸检测、语音合成、视频处理等重负载子进程统一降低运行优先级，视频编码线程数按 CPU 核数自适应，减少任务执行期间的界面卡顿。\n- macOS 客户端更新渠道迁移至腾讯云 COS：更新检测与下载改走国内源，GitHub 自动兜底，提升更新稳定性。\n- 界面文案统一梳理：顶部模式切换更名为「手动运营模式 / 全自动运营模式」（全自动模式暂未开放），各功能页提示语规范化。\n\n修复\n- 小店视频发布上传链路加固：分片上传的恢复与完成阶段增加自动重试，网络抖动不再导致整单发布失败；上传报错完整保留失败原因，便于定位问题。\n- 修复自动更新在部分安装了 Git 的设备上解压失败的问题：解压组件改用系统绝对路径调用，不再受环境变量干扰。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.7z",
-    "sha256": "ad69318b1723b357b2ff956cbf3f97ad05980396dfe90f2d0e17a0193f37202e",
-    "size": 233465774
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.81/panda-matrix-0.2.81.7z",
+    "sha256": "855d829fa35714fdba72f4eabd053638670a6c6aa12f28d62d90509f1a59f7b9",
+    "size": 233500133
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.zip",
-    "sha256": "bb5a2459ae77c0e57694aae2787b55a01c5025e60508d0e2e18fb411174a2dbc",
-    "size": 336411955
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.81/panda-matrix-0.2.81.zip",
+    "sha256": "68759a4160a7a98f1d5076bdd785051e452a8920f2970264f553bcdc59a0d1c2",
+    "size": 336463076
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.exe",
-    "sha256": "27ae4a531d6a40aa124e87386fa49d03c085f40de485f9a286afcc50b190a6a4",
-    "size": 264079551,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.80/panda-matrix-0.2.80.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.81/panda-matrix-0.2.81.exe",
+    "sha256": "6914dc19978cc4a84efdfb99d80a677acea70fc64ced9e676abf43358bb145ad",
+    "size": 264113487,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.81/panda-matrix-0.2.81.exe.blockmap"
   },
   "patches": []
 }
