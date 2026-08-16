@@ -1,16 +1,16 @@
 {
-  "version": "0.2.80",
-  "notes": "",
+  "version": "0.2.81",
+  "notes": "v0.2.81\n\n新功能\n- 视频二创新增「麒麟」「苍穹」两种 AB 帧模式：分别采用网格艺术图交错与隔行场序合成方案，随机种子逐条变化，已完成真实发布链路验证，支持链接分发带货全流程。\n\n优化\n- 素材库混剪抽签自动跳过管理端标记「素材不足」的商品：分配 ID 库中素材检测不达标的商品不再进入抽签池，减少无效备料消耗。\n- 低核心数设备性能治理：人脸检测、语音合成、视频处理等重负载子进程统一降低运行优先级，视频编码线程数按 CPU 核数自适应，减少任务执行期间的界面卡顿。\n- macOS 客户端更新渠道迁移至腾讯云 COS：更新检测与下载改走国内源，GitHub 自动兜底，提升更新稳定性。\n- 界面文案统一梳理：顶部模式切换更名为「手动运营模式 / 全自动运营模式」（全自动模式暂未开放），各功能页提示语规范化。\n\n修复\n- 小店视频发布上传链路加固：分片上传的恢复与完成阶段增加自动重试，网络抖动不再导致整单发布失败；上传报错完整保留失败原因，便于定位问题。\n- 修复自动更新在部分安装了 Git 的设备上解压失败的问题：解压组件改用系统绝对路径调用，不再受环境变量干扰。\n- 修复 macOS 素材库混剪误下载 Windows 版人脸识别运行时导致识别引擎启动失败（EACCES）的问题：现会明确提示获取 Mac 修复包或选择本地运行时目录，不再白耗流量下载不可用的组件。",
   "arch": "arm64",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.80/panda-matrix-0.2.80-arm64.zip",
-    "sha256": "6ebd93c995161c4ddd5c3e497142343aa20102084076b72a090edfdb7aab10b5",
-    "size": 272909040
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.81/panda-matrix-0.2.81-arm64.zip",
+    "sha256": "e4f17ee12a4a84fa8fed90b2edd55063dc188a4247483fe17d4a9b3da9b11c7b",
+    "size": 272926290
   },
   "dmg": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.80/panda-matrix-0.2.80-arm64.dmg",
-    "sha256": "3de306dc8211d2b689714c84eee0975527b9785ba03472e4751b6ea88ca1f4a5",
-    "size": 256326948
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.81/panda-matrix-0.2.81-arm64.dmg",
+    "sha256": "761bbf4b45dc8c8924ee89c2c8fdb9f486fbf69ac36a9b186b4aa630d7680f6f",
+    "size": 256336762
   },
   "patches": []
 }
