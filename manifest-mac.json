@@ -1,16 +1,16 @@
 {
-  "version": "0.2.83",
-  "notes": "v0.2.83\n\n新功能\n- macOS 语音合成运行时支持云端自动下载：点「下载安装」自动安装 mac 原生合成引擎（自包含 Python + Kokoro 模型，约 452MB，纯 CPU），素材库混剪「AI 讲解」在 mac 上开箱即用。\n\n修复\n- 修复 macOS 语音合成运行时状态自相矛盾的问题：此前下载的是 Windows 包，一处按 Windows 文件判「已就绪」、另一处按 mac 文件判「未就绪」，实际无法运行；现下载校验与状态显示统一按 mac 清单判定，并自动清理误下的 Windows 解释器目录。",
+  "version": "0.2.84",
+  "notes": "v0.2.84\n\n修复\n- 【macOS】修复运行日志与闪退检测从未落盘的问题：日志目录此前按 Windows 环境变量解析，mac 上会静默写入失败，导致排查问题时无日志可查、闪退也无法被检测到。现统一落到系统日志目录（~/Library/Logs/panda-matrix，可用「控制台」直接查看），Windows 行为不变。",
   "arch": "arm64",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.83/panda-matrix-0.2.83-arm64.zip",
-    "sha256": "2dc3734d8907ed5ab670e3a88b05bdcd50fe59bc105add8c5df0505c4310ca6d",
-    "size": 272931834
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.84/panda-matrix-0.2.84-arm64.zip",
+    "sha256": "49e8d0e117edb87eb6cbe5bb8080967b85ef329e013473360b0888ef138233c3",
+    "size": 272933996
   },
   "dmg": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.83/panda-matrix-0.2.83-arm64.dmg",
-    "sha256": "856a5fe3f21fbf3afb0bb2eb61ba922ae8a2e93ae384af035e8288eff3d8c5f6",
-    "size": 256337348
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.84/panda-matrix-0.2.84-arm64.dmg",
+    "sha256": "e21e11f75420b488b26b99fd590faf1fb66154801bffa4c58ca1bdc9743f8475",
+    "size": 256331681
   },
   "patches": []
 }
