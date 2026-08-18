@@ -1,16 +1,16 @@
 {
-  "version": "0.2.84",
-  "notes": "v0.2.84\n\n修复\n- 【macOS】修复运行日志与闪退检测从未落盘的问题：日志目录此前按 Windows 环境变量解析，mac 上会静默写入失败，导致排查问题时无日志可查、闪退也无法被检测到。现统一落到系统日志目录（~/Library/Logs/panda-matrix，可用「控制台」直接查看），Windows 行为不变。",
+  "version": "0.2.86",
+  "notes": "v0.2.86\n\n修复\n- 【macOS】修复图片二创报「sharp 图像库不可用（安装包缺 @img 平台二进制）」的问题：安装包此前只内置了 Windows 版图像库，mac 平台二进制未随包，封面生成与图片二创全部失败；现已补齐 Apple 芯片原生图像库。\n\n—— 同时包含 v0.2.85 ——\n\n优化\n- 优化带货识别的解析调度：识别任务优先在本机直接完成，批量识别的等待时间显著缩短；本机网络受限时自动切换云端解析通道，识别结果不受影响。\n\n修复\n- 修复磁力金牛计划列表跨页勾选被清空的问题：翻页后已勾选的计划保持选中，「删除所选计划」显示当前已选数量，表头支持按页全选与半选状态。",
   "arch": "arm64",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.84/panda-matrix-0.2.84-arm64.zip",
-    "sha256": "49e8d0e117edb87eb6cbe5bb8080967b85ef329e013473360b0888ef138233c3",
-    "size": 272933996
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.86/panda-matrix-0.2.86-arm64.zip",
+    "sha256": "0c24eff8f02d310fe0246762bc9b6d2052f75813b3a1436a0824ba122c4a7ce7",
+    "size": 280077530
   },
   "dmg": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.84/panda-matrix-0.2.84-arm64.dmg",
-    "sha256": "e21e11f75420b488b26b99fd590faf1fb66154801bffa4c58ca1bdc9743f8475",
-    "size": 256331681
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/mac/v0.2.86/panda-matrix-0.2.86-arm64.dmg",
+    "sha256": "3a6243aa23437a255335eabd5c5ea1fcde8f2adb5a47eee89c3399a2fa9cadc4",
+    "size": 263377688
   },
   "patches": []
 }
