@@ -1,21 +1,21 @@
 {
-  "version": "0.2.87",
-  "notes": "v0.2.87\n\n新功能\n- 磁力金牛新增「自动删除亏损计划」：按设定的轮询间隔自动清理消耗达到指定金额仍无成交订单的推广计划，消耗区间、订单数上限与数据时间范围均可配置，每轮结果提交至任务中心供查看命中与删除明细，支持立即执行一次；客户端运行期间自动生效，无需停留在金牛页面。\n- 作品管理新增批量删除：支持删除已勾选作品或删除指定日期之前（含当天）发布的作品，覆盖全部 / 引流 / 带货三个标签页，并支持按标签页全选；删除前双重确认，过程展示进度与预计耗时，可随时停止。\n\n优化\n- 作品管理不再展示与读取已判定掉线的账号，列表加载更快、账号状态更准确；账号重新登录后自动恢复展示。\n\n修复\n- 修复部分设备语音合成提示「DLL 初始化例程失败」的问题：合成引擎所需的系统运行库改为随安装包内置并自动补齐，不再依赖设备上已安装的运行库版本。\n- 修复自定义 AI 服务直连模式下网络瞬断导致批量解析整批失败并误报「素材不足」的问题：瞬时连接错误自动进行多次退避重试，可覆盖数分钟的网络抖动。\n- 修复账号管理保存代理设置后列表仍显示旧配置的问题：保存后立即按本机实际生效的配置展示，云端同步完成后自动对齐。",
+  "version": "0.2.88",
+  "notes": "v0.2.88\n\n新功能\n- 带货发布支持选择挂车方式：新增「创作者挂车」（发布即挂车）与原有「小店挂车」（支持先发后挂）两条链路，可在发布设置的发布入口中切换；创作者挂车模式下「先发后挂」自动停用并给出说明。带货发布均要求商品成功挂载，不再降级为无挂车发布。\n\n优化\n- 图片混剪出图模型升级：统一切换至出图速度更快的模型，批量出图整体耗时显著下降。\n- 图片混剪与素材库混剪共用同一背景音乐曲库，曲目更丰富，安装包体积减小约 60MB。\n\n修复\n- 修复部分账号在同一天集体掉线的问题：登录状态自动续期的结果此前未能在全部站点生效，账号会在登录凭证到期当天成批掉线；现续期结果全域统一生效，已受影响的账号在下一轮保活时自动恢复正常续期。\n- 修复熊猫 API 模式下图片混剪批量出图失败的问题：完成出图服务协议适配，历史配置中的失效模型自动纠正为当前可用模型，竖版出图比例稳定生效。\n- 修复 AI 服务页在熊猫 API 模式下误报「图片模型不存在」的问题：配置自检按实际生效的模型判断，并明确展示当前使用的出图模型。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.87/panda-matrix-0.2.87.7z",
-    "sha256": "9f8c6109756d79abfd1df436beca5591abec61bb194002504b2d5e156739f888",
-    "size": 239221803
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.88/panda-matrix-0.2.88.7z",
+    "sha256": "cdfa4850a56c7bf0d699ff56008e7a388c896d6c6a3fd10f06a379da920358eb",
+    "size": 174326952
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.87/panda-matrix-0.2.87.zip",
-    "sha256": "88b5afda12c9b2585ef8c82870d9f1f582f11223ccba43b1898ee14c4f092ecb",
-    "size": 344565081
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.88/panda-matrix-0.2.88.zip",
+    "sha256": "320c40c392d6706c3ce56427e95614b56baf98e71c9952e91c6ad19442cd65be",
+    "size": 279627379
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.87/panda-matrix-0.2.87.exe",
-    "sha256": "659aad7d18f0a865eb30c4b89459f024b083606da9c3d9e3614b8ea85beeedc1",
-    "size": 270080596,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.87/panda-matrix-0.2.87.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.88/panda-matrix-0.2.88.exe",
+    "sha256": "f36529a2b7552ee5762ac74770ce2d3f7da8621f78b11661cd7dfd974b6616ef",
+    "size": 205150103,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.88/panda-matrix-0.2.88.exe.blockmap"
   },
   "patches": []
 }
