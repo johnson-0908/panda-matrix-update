@@ -1,21 +1,21 @@
 {
-  "version": "0.2.89",
-  "notes": "v0.2.89\n\n优化\n- 积分计费支持按业务分区分别定价：素材库混剪、图文混剪 V2 等成本较高的分区可由管理端单独设置单价，未单独设置的分区仍按成片基准价计费；「AI 服务」用量页按分区展示消耗明细。\n\n修复\n- 修复账号使用带账号密码的 SOCKS5 代理时「能连上却打不开任何页面」的问题：登录、判活、内嵌页面与视频发布此前会因代理认证方式不兼容而全部失效，现已通过本地代理通道补齐认证，出口 IP 与账号隔离保持不变；代理测试改为分别检测两条出网通道，不再出现「测试通过但实际无法访问」。",
+  "version": "0.2.90",
+  "notes": "v0.2.90\n\n调整\n- 积分计费范围收窄：仅「素材库混剪」与「图文混剪 V2」消耗积分，AB 帧引流二创、链接分发带货、优选带货、本地文件二创、粘贴链接二创、飞书指令二创、图文混剪 V1、AI 视频生成一律免费，相关界面不再显示积分预估。\n\n修复\n- 修复更新服务不可用时人脸检测与语音合成无法启动的问题：本机已安装的运行时此前需先联网获取版本清单才能使用，清单获取失败会导致功能在启动阶段即中断；现清单获取失败时自动改用本机已就绪的运行时（当次不检查更新），仅在本机缺少运行时文件时才提示需要下载。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.89/panda-matrix-0.2.89.7z",
-    "sha256": "1655e8cf469653b6d9d4d971a1b5e7e444229f4ed0f9c1d1e3a07a94374bf8be",
-    "size": 174339033
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.90/panda-matrix-0.2.90.7z",
+    "sha256": "0ab6614859ccb42380c646fdf6e31b178c3aec185e02500aff884735c77efee9",
+    "size": 174339663
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.89/panda-matrix-0.2.89.zip",
-    "sha256": "8bca66e695139e2f08df154921ebb2fb519626dffa048e7f1fff394136a55271",
-    "size": 279647075
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.90/panda-matrix-0.2.90.zip",
+    "sha256": "a3f05d0ee4a63578b06ce4d0ee7a88ef9dabf3994c19f0478acaf1457319838f",
+    "size": 279647445
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.89/panda-matrix-0.2.89.exe",
-    "sha256": "ee850492f11b7026871e8236008dddcb24c3c1a72ced4f17d7ad6e1a068185b1",
-    "size": 205169605,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.89/panda-matrix-0.2.89.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.90/panda-matrix-0.2.90.exe",
+    "sha256": "08f08cd96f75785a3135d4ef57d4b77424314308de9d0df7b44b3be91205f222",
+    "size": 205167543,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.90/panda-matrix-0.2.90.exe.blockmap"
   },
   "patches": []
 }
