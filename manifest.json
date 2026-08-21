@@ -1,21 +1,21 @@
 {
-  "version": "0.2.91",
-  "notes": "v0.2.91\n\n新功能\n- 「AI 服务」熊猫 API 模式新增「模式一 / 模式二」档位切换：拿到新版 API Key 后切到模式二即可，未更换 Key 的用户保持模式一、升级后无需操作。\n- 熊猫 API 模式的解析模型改为可选，每档提供可用模型清单。\n\n优化\n- 素材库混剪「只生成不发布」提速：取消无效的发布间隔等待。\n- 自定义模式的图片模型下拉仅列出实际支持出图的模型。",
+  "version": "0.2.92",
+  "notes": "v0.2.92：素材库混剪提速——不再为每个商品合成用不到的讲解配音；视频解析降速后自动回升，不再长时间停留在低速。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.7z",
-    "sha256": "c729b7c939d7ab14dc9273c297af00b8e7ee1b5d480e5d5a5f734186824aac6b",
-    "size": 174337891
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.92/panda-matrix-0.2.92.7z",
+    "sha256": "595ddac897b9d0fb32ccbb658e09c34d5ab77754ed117d15a42347f142166a98",
+    "size": 169028065
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.zip",
-    "sha256": "e146140363cab16453e568b11b285f0771684da26fe15139867c3ee75b57111e",
-    "size": 279650429
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.92/panda-matrix-0.2.92.zip",
+    "sha256": "245f245e537f5d7eb6258c2c7fa8fc3395660c5fee5f3f6ba21c7b022b3bcfce",
+    "size": 272194918
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.exe",
-    "sha256": "b195424016c868e6e16b892924bf3740b67c4f2f7797c8a070e23f6c9581c0bd",
-    "size": 205168851,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.92/panda-matrix-0.2.92.exe",
+    "sha256": "68b1b538ec3dc9111fd475c46465430a304c2ae44845860c7589ee329b79e853",
+    "size": 199673413,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.92/panda-matrix-0.2.92.exe.blockmap"
   },
   "patches": []
 }
