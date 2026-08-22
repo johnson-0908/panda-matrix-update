@@ -1,21 +1,21 @@
 {
-  "version": "0.2.91",
+  "version": "0.2.93",
   "notes": "v0.2.93\n\n新功能\n- 素材库混剪支持手动输入商品 ID 作为商品来源。\n- 素材库混剪讲解支持选择音色与语速，可在面板内直接试听。\n- 图片混剪 V2 商品来源新增「分配 ID 库抽取」，替代原「链接库抽取」。\n- 侧边栏与账号信息显示套餐版本，AB帧版、混剪版按所属套餐开放对应的二创来源。\n\n优化\n- 图片混剪 V2 填写自定义商品 ID 后可直接提交，商品解析、上架与商品图读取改由任务在后台完成，进度可在任务中心查看。\n- 图片混剪 V2 解析失败或受平台限流影响的商品 ID 不必手动重试，提交后由任务自动继续解析。\n\n修复\n- 修复磁力金牛自动删除计划勾选的广告户数量与实际列表不符的问题，并支持一键移除已失效的广告户。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.7z",
-    "sha256": "c729b7c939d7ab14dc9273c297af00b8e7ee1b5d480e5d5a5f734186824aac6b",
-    "size": 174337891
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.7z",
+    "sha256": "60b4e3a403467042f3a89856adfb3c9c5d75e9799f6330697e4c946502df3561",
+    "size": 174395201
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.zip",
-    "sha256": "e146140363cab16453e568b11b285f0771684da26fe15139867c3ee75b57111e",
-    "size": 279650429
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.zip",
+    "sha256": "561d55db52af38a10265fd9dd515e019e00a5b2c472b4f4a60e09522b0390744",
+    "size": 279723548
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.exe",
-    "sha256": "b195424016c868e6e16b892924bf3740b67c4f2f7797c8a070e23f6c9581c0bd",
-    "size": 205168851,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.91/panda-matrix-0.2.91.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.exe",
+    "sha256": "755f111c644b7bb3cfe5b791f87e385636ceb4a329636b71e2386febd31ec947",
+    "size": 205237309,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.exe.blockmap"
   },
   "patches": []
 }
