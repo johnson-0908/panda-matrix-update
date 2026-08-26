@@ -1,21 +1,21 @@
 {
-  "version": "0.2.93",
-  "notes": "v0.2.93\n\n新功能\n- 素材库混剪支持手动输入商品 ID 作为商品来源。\n- 素材库混剪讲解支持选择音色与语速，可在面板内直接试听。\n- 图片混剪 V2 商品来源新增「分配 ID 库抽取」，替代原「链接库抽取」。\n- 侧边栏与账号信息显示套餐版本，AB帧版、混剪版按所属套餐开放对应的二创来源。\n\n优化\n- 图片混剪 V2 填写自定义商品 ID 后可直接提交，商品解析、上架与商品图读取改由任务在后台完成，进度可在任务中心查看。\n- 图片混剪 V2 解析失败或受平台限流影响的商品 ID 不必手动重试，提交后由任务自动继续解析。\n\n修复\n- 修复磁力金牛自动删除计划勾选的广告户数量与实际列表不符的问题，并支持一键移除已失效的广告户。",
+  "version": "1.0.0",
+  "notes": "v1.0.0\n\n新功能\n- 新增「系统检测」：一页跑完依赖体检与性能跑分，给出综合评分、瓶颈定位与问题清单，并支持一键补齐缺失的运行时和配置。\n- 新增性能模式：标题栏可在「Turbo+」与「低功耗」之间切换，前者自动加开并发把机器吃满，后者为每类任务各留一路、把机器让给日常使用。\n- 语音合成支持显卡加速：N 卡机器安装加速包后，讲解合成从 CPU 转到显卡，速度大幅提升；未安装或显卡不可用时自动回退 CPU。\n- 新增「Beta 测试计划」：在「设置 → 系统」提交申请，管理员通过后可提前收到测试版；测试版不强制更新，随时可以回退到稳定版。\n- 素材库混剪新增「视频结构」选项：精品视频（AI 分析爆款结构，默认）/ 简约视频（随机结构+自动防重复），后者出片更快、AI 用量更低。\n- 「AI 服务」熊猫 API 不再需要手动填写 Key：管理员分配后客户端自动获取，尚未分配时页面直接提示联系管理员。\n- 任务中心新增「重试挂车」与「重试失败 N 条」：挂车失败或已取消的任务可重新排队，重挂前先确认商品是否在架。\n- 作品管理新增「自动补齐缓存」：进入页面后自动同步缺少缓存或缓存过旧的账号，不必每次手点「同步数据」，可关闭；始终没有缓存的账号会显示原因。\n- 磁力金牛「账号批量新建计划」改为按发布时间区间筛选作品，精确到分钟，并提供「近 3 小时」「近 24 小时」快捷选择；橱窗商品列表支持按售价、佣金率、销量排序。\n\n优化\n- 二创出片速度整体提升：备料与配音改为按 CPU、内存占用自适应并发，配音大批量合成自动多进程并行，商品较多时边备料边发布，单账号连续发布之间不再默认等待。\n- 二创模式卡片收敛为「AB帧模式」「素材库混剪」「图片混剪 V2」三项，「链接分发带货」并入 AB帧模式，改为在带货模式下选择链接来源。\n- 二创工作区顶部压缩为一行工具条，发布设置移到紧随其下的一行，进入页面不用下滑就能配置完。\n- 「AI 服务」页收敛为「配置」与「用量」两页，运行时相关内容并入「系统检测」；熊猫 API 不再显示原始模型编号，取 Key 与连通检测合并为一个「刷新」。\n- 语音合成与视频编码的并发不再按 CPU 核数一刀切，改由性能模式决定，配了显卡的机器不会再被当成低配机而被迫串行。\n- 【macOS】素材库混剪与链接分发启用 Apple 硬件编码，成片合成与素材裁剪不再占用 CPU 软编，配置较低的 Mac 上提速明显。\n\n修复\n- 修复部分成片封面把商品编号当成商品名印在画面上。\n- 修复 AI 的 Key 失效、欠费等问题被报成「素材不足」，现在直接提示实际原因与处理位置。\n- 修复磁力金牛「一键删除计划」把已经删掉的计划误报成删除失败。\n\n调整\n- 二创下线「图片混剪」（旧版），图文出图统一使用「图片混剪 V2」；移除一直标注「开发中」的「自定义视频」与「优选带货」；「分配ID带货」不再是独立卡片，该能力保留在素材库混剪的商品来源中。\n- 「设置 → 系统」移除网络抓包。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.7z",
-    "sha256": "60b4e3a403467042f3a89856adfb3c9c5d75e9799f6330697e4c946502df3561",
-    "size": 174395201
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.0/panda-matrix-1.0.0.7z",
+    "sha256": "0c5f2d8e2d08752184cb2b66ffdd68f887d0dbbbe9209d811deab77619444f4c",
+    "size": 169122835
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.zip",
-    "sha256": "561d55db52af38a10265fd9dd515e019e00a5b2c472b4f4a60e09522b0390744",
-    "size": 279723548
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.0/panda-matrix-1.0.0.zip",
+    "sha256": "b278ab108db36299b1a62e3d4100f607f5364e57ebc419c3ad4082b247609478",
+    "size": 272342017
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.exe",
-    "sha256": "755f111c644b7bb3cfe5b791f87e385636ceb4a329636b71e2386febd31ec947",
-    "size": 205237309,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v0.2.93/panda-matrix-0.2.93.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.0/panda-matrix-1.0.0.exe",
+    "sha256": "16a7e96a27039be4b77e283a76e72a51175a01d65025512ec5e68950f231e415",
+    "size": 199793060,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.0/panda-matrix-1.0.0.exe.blockmap"
   },
   "patches": []
 }
