@@ -1,0 +1,21 @@
+{
+  "version": "1.0.2-beta.1",
+  "notes": "v1.0.2-beta.1\n\n修复\n- 修复部分账号在磁力金牛删除计划时仍持续失败的问题。",
+  "full": {
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.7z",
+    "sha256": "1b2d38318d647278e6e60631a313c6e69401748bcb22ba2fb6372fbe373ce0d2",
+    "size": 169122984
+  },
+  "fullZip": {
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.zip",
+    "sha256": "fd2ad9cd1cad2fb1b63e55e4cacf49dfbc194e9208fcec6d889a493b02bca20e",
+    "size": 272348974
+  },
+  "installer": {
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.exe",
+    "sha256": "39c715f00c408ef81b2526f5ec6fd7314b1e5eaec67ff9ee03d0b710f5c5f852",
+    "size": 199786574,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.exe.blockmap"
+  },
+  "patches": []
+}
