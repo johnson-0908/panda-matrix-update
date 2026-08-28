@@ -1,21 +1,21 @@
 {
-  "version": "1.0.1",
-  "notes": "v1.0.1\n\n优化\n- 磁力金牛接口报错时显示具体原因，不再只提示错误代码。\n\n修复\n- 修复部分账号在磁力金牛删除计划时持续失败的问题：这类账号的其他功能均正常，仅删除计划报错。",
+  "version": "1.0.2",
+  "notes": "v1.0.2\n\n修复\n- 修复部分账号在磁力金牛删除计划时仍持续失败的问题。\n- 修复 Beta 测试版无法安装的问题：在「设置 → 系统 → 版本与更新」可查看更新内容并自行安装。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.1/panda-matrix-1.0.1.7z",
-    "sha256": "f1b94ba7dbab059e8c6f65758aeb2545ca358726eb2ffbdb479efe311040d090",
-    "size": 169126884
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.7z",
+    "sha256": "663f32872ede6b9afca1baf621c2d5ac4e804703542ba0645e2dc7963ea25baf",
+    "size": 169130633
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.1/panda-matrix-1.0.1.zip",
-    "sha256": "e8622a68bf27d23e84d6bbfcf8eed21df2f55895b30b51ef3368954ea5b9bbe0",
-    "size": 272344720
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.zip",
+    "sha256": "8819d8187035bb73843cca62f8de8ced062d07a42295f2ec8f644e2dae45b0ec",
+    "size": 272343817
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.1/panda-matrix-1.0.1.exe",
-    "sha256": "7b0c8a29edcbb35f09ae3d71ca463badd0188d02ee9cf1b535ce7c4fa1853e5b",
-    "size": 199792126,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.1/panda-matrix-1.0.1.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.exe",
+    "sha256": "ec4194b28b6f657f9cff6eb4be6a62441d5be134881d9a790bcc7d10d611110e",
+    "size": 199801167,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.exe.blockmap"
   },
   "patches": []
 }
