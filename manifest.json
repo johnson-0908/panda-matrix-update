@@ -1,21 +1,21 @@
 {
-  "version": "1.0.3",
-  "notes": "v1.0.3：更换云端服务器与更新下载源，连接更稳定、更新下载更快。",
+  "version": "1.0.4",
+  "notes": "v1.0.4：修复混剪版无法从货架挑选商品的问题。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.7z",
-    "sha256": "cc7224a808f6f2a4ae0707b4d30115f0541d8645ab0eccc538750559c198bc1e",
-    "size": 174448348
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.7z",
+    "sha256": "99328ff9fbc13c532a0122a140cbd1cdcc7e3ce64b3d07b31836af832b085618",
+    "size": 174447824
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.zip",
-    "sha256": "750ebbf5afef289f0be5d038ade3f38cc5c5e069983a6c4bd3317caa5331f4c5",
-    "size": 279813673
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.zip",
+    "sha256": "43ef40f09832ab7b12f43af756bdaefd2bfce1c508b5a6b748374d260dc90b5d",
+    "size": 279814868
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.exe",
-    "sha256": "f7857a01323f801bdee7ef7e41481c4ba6a0bcc0e11934d304b823303cc8bc31",
-    "size": 205287917,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.exe",
+    "sha256": "32402009b56456b242543de36e1b1bffb888363784bae9da0c4b4dbb87f937f1",
+    "size": 205284270,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.exe.blockmap"
   },
   "patches": []
 }
