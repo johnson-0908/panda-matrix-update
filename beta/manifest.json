@@ -1,21 +1,21 @@
 {
-  "version": "1.0.2-beta.1",
-  "notes": "v1.0.2-beta.1\n\n修复\n- 修复部分账号在磁力金牛删除计划时仍持续失败的问题。",
+  "version": "1.0.3-beta.1",
+  "notes": "v1.0.3-beta.1（Beta 测试版）\n\n优化\n- 降低云端同步的流量占用：数据未变化时不再重复下载，上传内容自动压缩，例行同步不再回传完整 Cookie 内容。\n- 减少批量任务的等待：磁力金牛等连续操作不再反复读取同一账号信息，大批量任务完成更快。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.7z",
-    "sha256": "1b2d38318d647278e6e60631a313c6e69401748bcb22ba2fb6372fbe373ce0d2",
-    "size": 169122984
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.3-beta.1/panda-matrix-1.0.3-beta.1.7z",
+    "sha256": "179837fc0c525fcc8b2b716f2da91e0691ef85c0eb2f90ebd0bdcf14a76f559a",
+    "size": 169125756
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.zip",
-    "sha256": "fd2ad9cd1cad2fb1b63e55e4cacf49dfbc194e9208fcec6d889a493b02bca20e",
-    "size": 272348974
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.3-beta.1/panda-matrix-1.0.3-beta.1.zip",
+    "sha256": "21f8aa17d75a4a1d7b0861710fa1b875864bc0b3a9bd1a41ede9da9626fcbcd5",
+    "size": 272357366
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.exe",
-    "sha256": "39c715f00c408ef81b2526f5ec6fd7314b1e5eaec67ff9ee03d0b710f5c5f852",
-    "size": 199786574,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.2-beta.1/panda-matrix-1.0.2-beta.1.exe.blockmap"
+    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.3-beta.1/panda-matrix-1.0.3-beta.1.exe",
+    "sha256": "530010999af0c223e1c2f1b6e462e111809d8d5eaacab2d7f66e4d02b6c61da5",
+    "size": 199785758,
+    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/beta/v1.0.3-beta.1/panda-matrix-1.0.3-beta.1.exe.blockmap"
   },
   "patches": []
 }
