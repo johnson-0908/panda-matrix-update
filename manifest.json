@@ -1,21 +1,21 @@
 {
-  "version": "1.0.2",
-  "notes": "v1.0.2\n\n修复\n- 修复部分账号在磁力金牛删除计划时仍持续失败的问题。\n- 修复 Beta 测试版无法安装的问题：在「设置 → 系统 → 版本与更新」可查看更新内容并自行安装。",
+  "version": "1.0.3",
+  "notes": "v1.0.3：更换云端服务器与更新下载源，连接更稳定、更新下载更快。",
   "full": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.7z",
-    "sha256": "663f32872ede6b9afca1baf621c2d5ac4e804703542ba0645e2dc7963ea25baf",
-    "size": 169130633
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.7z",
+    "sha256": "cc7224a808f6f2a4ae0707b4d30115f0541d8645ab0eccc538750559c198bc1e",
+    "size": 174448348
   },
   "fullZip": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.zip",
-    "sha256": "8819d8187035bb73843cca62f8de8ced062d07a42295f2ec8f644e2dae45b0ec",
-    "size": 272343817
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.zip",
+    "sha256": "750ebbf5afef289f0be5d038ade3f38cc5c5e069983a6c4bd3317caa5331f4c5",
+    "size": 279813673
   },
   "installer": {
-    "url": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.exe",
-    "sha256": "ec4194b28b6f657f9cff6eb4be6a62441d5be134881d9a790bcc7d10d611110e",
-    "size": 199801167,
-    "blockmapUrl": "https://panda-download-update-1309785067.cos.ap-guangzhou.myqcloud.com/panda-matrix/v1.0.2/panda-matrix-1.0.2.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.exe",
+    "sha256": "f7857a01323f801bdee7ef7e41481c4ba6a0bcc0e11934d304b823303cc8bc31",
+    "size": 205287917,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.3/panda-matrix-1.0.3.exe.blockmap"
   },
   "patches": []
 }
