@@ -1,21 +1,21 @@
 {
-  "version": "1.0.4",
-  "notes": "v1.0.4：修复混剪版无法从货架挑选商品的问题。",
+  "version": "1.0.5",
+  "notes": "v1.0.5：新增商品黑名单——拉黑的商品 ID 不再上架、不发布作品、不创建推广计划；投放计划净佣金与利润可按计划创建时间起算；批量建计划区分重复计划与账号计划数上限，达上限自动停止该账号；带货识别遇限流、云端繁忙或超时自动补测，更稳定。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.7z",
-    "sha256": "99328ff9fbc13c532a0122a140cbd1cdcc7e3ce64b3d07b31836af832b085618",
-    "size": 174447824
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.7z",
+    "sha256": "f4f3eb28a9d2335a827a545c126f800f4a4db6b3794699d587c7c70ded12cad3",
+    "size": 169165986
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.zip",
-    "sha256": "43ef40f09832ab7b12f43af756bdaefd2bfce1c508b5a6b748374d260dc90b5d",
-    "size": 279814868
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.zip",
+    "sha256": "f4a875ffa62dd907e3b9c472b519a9a3bdf8bbd9b0dcf47cb67b9f9fd786edc0",
+    "size": 272392465
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.exe",
-    "sha256": "32402009b56456b242543de36e1b1bffb888363784bae9da0c4b4dbb87f937f1",
-    "size": 205284270,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.4/panda-matrix-1.0.4.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.exe",
+    "sha256": "a6a43561118554bf026a5412c369dd359d3c47d124e39316ea8739ce6a5e8780",
+    "size": 199794774,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.exe.blockmap"
   },
   "patches": []
 }
