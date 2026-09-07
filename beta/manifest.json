@@ -1,21 +1,21 @@
 {
-  "version": "1.0.5-beta.1",
-  "notes": "v1.0.5-beta.1：带货识别测试版。部分限流、云端繁忙和超时结果增加补测，调整服务器繁忙与拥堵提示。本版仅面向 Beta 测试用户；上游持续限流、出口不可用及部分异常场景仍可能失败，请保留失败记录反馈。正式通道不变。",
+  "version": "1.0.5-beta.2",
+  "notes": "v1.0.5-beta.2：新增商品黑名单——拉黑的商品 ID 不再上架、不发布作品、不创建推广计划；投放计划净佣金与利润可按计划创建时间起算；批量建计划区分重复计划与账号计划数上限，达上限自动停止该账号。本版仅面向 Beta 测试用户，不推送正式通道。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.1/panda-matrix-1.0.5-beta.1.7z",
-    "sha256": "53ae36866c1d1a701e572233bfdc6ff1bcb769f221cde8dabf88d8e6a7f762bd",
-    "size": 169134348
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.2/panda-matrix-1.0.5-beta.2.7z",
+    "sha256": "e08ee8b879f0af1ada98ec4efe1e161c9a713da9a1a86bee14ae1bffff941747",
+    "size": 169161062
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.1/panda-matrix-1.0.5-beta.1.zip",
-    "sha256": "48bde693b2b35ff952a40c138978b5734ffa03ec7299aa92edd68c67dc830947",
-    "size": 272363689
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.2/panda-matrix-1.0.5-beta.2.zip",
+    "sha256": "979f44d92b2816ba226fb7b128cf82df5fafae369baecc5d7ce1441ab149d5dd",
+    "size": 272405100
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.1/panda-matrix-1.0.5-beta.1.exe",
-    "sha256": "361edf587a641bd33a509c620eabb9bc7c1ab12f6e6cb954470fa8e48a70c7fc",
-    "size": 199798217,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.1/panda-matrix-1.0.5-beta.1.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.2/panda-matrix-1.0.5-beta.2.exe",
+    "sha256": "940e830e75f520e85d5753c28dee101453ee69abd15027d279608aafdc2e87d4",
+    "size": 199787734,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/beta/v1.0.5-beta.2/panda-matrix-1.0.5-beta.2.exe.blockmap"
   },
   "patches": []
 }
