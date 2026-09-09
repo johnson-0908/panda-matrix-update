@@ -1,21 +1,22 @@
 {
-  "version": "1.0.5",
-  "notes": "v1.0.5：新增商品黑名单——拉黑的商品 ID 不再上架、不发布作品、不创建推广计划；投放计划净佣金与利润可按计划创建时间起算；批量建计划区分重复计划与账号计划数上限，达上限自动停止该账号；带货识别遇限流、云端繁忙或超时自动补测，更稳定。",
+  "version": "1.0.6",
+  "notes": "v1.0.6：修复历史记录异常导致任务中心整体无法显示；确认本地历史库损坏时启用独立备用历史库，保留原文件，让新任务继续保存历史。正常用户不迁移、不清空、不重建历史库。已损坏且不可读取的旧历史不保证恢复。 本次为非强制更新，正常使用的用户可稍后升级。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.7z",
-    "sha256": "f4f3eb28a9d2335a827a545c126f800f4a4db6b3794699d587c7c70ded12cad3",
-    "size": 169165986
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.7z",
+    "sha256": "95ed4c5f8cbb1556160a51403e5762537e9b443bee1f498c098ddf70e33d38f9",
+    "size": 169166682
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.zip",
-    "sha256": "f4a875ffa62dd907e3b9c472b519a9a3bdf8bbd9b0dcf47cb67b9f9fd786edc0",
-    "size": 272392465
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.zip",
+    "sha256": "4cc83eb0a1f03f63ac93b7bdeb601ed449464aac9d80ef9113c3d7ff5c9598ef",
+    "size": 272405374
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.exe",
-    "sha256": "a6a43561118554bf026a5412c369dd359d3c47d124e39316ea8739ce6a5e8780",
-    "size": 199794774,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.5/panda-matrix-1.0.5.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.exe",
+    "sha256": "000897fcb6a1b089f4734150c04e41ed8a3c6618101e7392190d7742f0c71a72",
+    "size": 199791621,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.exe.blockmap"
   },
-  "patches": []
+  "patches": [],
+  "mandatory": false
 }
