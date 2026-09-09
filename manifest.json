@@ -1,6 +1,6 @@
 {
   "version": "1.0.6",
-  "notes": "v1.0.6：修复历史记录异常导致任务中心整体无法显示；确认本地历史库损坏时启用独立备用历史库，保留原文件，让新任务继续保存历史。正常用户不迁移、不清空、不重建历史库。已损坏且不可读取的旧历史不保证恢复。 本次为非强制更新，正常使用的用户可稍后升级。",
+  "notes": "v1.0.6：修复历史记录异常导致任务中心整体无法显示；确认本地历史库损坏时启用独立备用历史库，保留原文件，让新任务继续保存历史。正常用户不迁移、不清空、不重建历史库。已损坏且不可读取的旧历史不保证恢复。 本次所有用户需升级；数据库修复仅在确认历史库损坏时触发，正常库继续原有读写流程。",
   "full": {
     "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.7z",
     "sha256": "95ed4c5f8cbb1556160a51403e5762537e9b443bee1f498c098ddf70e33d38f9",
@@ -18,5 +18,5 @@
     "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.exe.blockmap"
   },
   "patches": [],
-  "mandatory": false
+  "mandatory": true
 }
