@@ -1,21 +1,21 @@
 {
-  "version": "1.0.6",
-  "notes": "v1.0.6：修复历史记录异常导致任务中心整体无法显示；确认本地历史库损坏时启用独立备用历史库，保留原文件，让新任务继续保存历史。正常用户不迁移、不清空、不重建历史库。已损坏且不可读取的旧历史不保证恢复。 本次所有用户需升级；数据库修复仅在确认历史库损坏时触发，正常库继续原有读写流程。",
+  "version": "1.0.7",
+  "notes": "v1.0.7：修复部分带货识别瞬时错误未补测、签名器不可用时漏补测和后端轮询等待超限；不迁移或覆盖数据库。上游持续限流、云端异常及已损坏旧数据仍需单独处理。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.7z",
-    "sha256": "95ed4c5f8cbb1556160a51403e5762537e9b443bee1f498c098ddf70e33d38f9",
-    "size": 169166682
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.7/panda-matrix-1.0.7.7z",
+    "sha256": "e7ca6c0fcb53793ac0a66117a4502157b1a25bebab7b87d27d94547302acef67",
+    "size": 169167023
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.zip",
-    "sha256": "4cc83eb0a1f03f63ac93b7bdeb601ed449464aac9d80ef9113c3d7ff5c9598ef",
-    "size": 272405374
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.7/panda-matrix-1.0.7.zip",
+    "sha256": "f18e1899eeff0c4777b8f95ff53a6a8925f5fff2374389eb951449c77a338260",
+    "size": 272408431
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.exe",
-    "sha256": "000897fcb6a1b089f4734150c04e41ed8a3c6618101e7392190d7742f0c71a72",
-    "size": 199791621,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.6/panda-matrix-1.0.6.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.7/panda-matrix-1.0.7.exe",
+    "sha256": "577817ae9e92b32e36629f5b33d5b2d4261ec44b39674fcfb83c38dec1e65bf5",
+    "size": 199788331,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.7/panda-matrix-1.0.7.exe.blockmap"
   },
   "patches": [],
   "mandatory": true
