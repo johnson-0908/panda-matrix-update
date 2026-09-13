@@ -1,21 +1,21 @@
 {
-  "version": "1.0.9",
-  "notes": "v1.0.9：更新模式10为新版四趟60fps AB帧MP4流程，更新随机B画布；模式1/2/3与用户数据库保持不变。",
+  "version": "1.0.10",
+  "notes": "v1.0.10：自定义AI服务支持手填文本和图片模型ID，增加空模型检测；发布日志按实际二创模式显示。包含新版模式10，不改用户数据库。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.7z",
-    "sha256": "27847e9617b1224658cfba0df9e49b39dcef1c822f6b11a237faefb2198a0c8e",
-    "size": 169181459
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.10/panda-matrix-1.0.10.7z",
+    "sha256": "bdd631064fb9cb6457c8dd2febc7a4ca595b02add0483c98e2aba0fd851ba0a0",
+    "size": 169180492
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.zip",
-    "sha256": "98606b9231aec3bac626f675deae0ef8d6ab58d97046d6337bec0fc4e26547a4",
-    "size": 272425795
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.10/panda-matrix-1.0.10.zip",
+    "sha256": "0ccc57f288efb987bb37fb6d9ebbcb558fb5ac1bc35e23e82a0bc557d5560300",
+    "size": 272430796
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.exe",
-    "sha256": "1ed676aace5b3f49d9636371d696badbc9c1365495b49152dadb14a54c5f30da",
-    "size": 199799810,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.10/panda-matrix-1.0.10.exe",
+    "sha256": "9a425e9276594e8a3858183c6f128f66d48df8d7f5c7a6a19497f682643eec86",
+    "size": 199801953,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.10/panda-matrix-1.0.10.exe.blockmap"
   },
   "patches": [],
   "mandatory": true
