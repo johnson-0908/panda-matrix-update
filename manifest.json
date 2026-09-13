@@ -1,21 +1,21 @@
 {
-  "version": "1.0.8",
-  "notes": "v1.0.8：修复作品已同步却误报“该时段无作品”、缓存异常丢失带货识别结果，以及同步失败和未知结果误报完成；不删除或重建数据库，原库损坏及持续上游失败仍需单独处理。",
+  "version": "1.0.9",
+  "notes": "v1.0.9：更新模式10为新版四趟60fps AB帧MP4流程，更新随机B画布；模式1/2/3与用户数据库保持不变。",
   "full": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.8/panda-matrix-1.0.8.7z",
-    "sha256": "48ccf45d91d56a39c4c421a43ee069f78490da9724f3016e1c53025708e6baf7",
-    "size": 169171531
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.7z",
+    "sha256": "27847e9617b1224658cfba0df9e49b39dcef1c822f6b11a237faefb2198a0c8e",
+    "size": 169181459
   },
   "fullZip": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.8/panda-matrix-1.0.8.zip",
-    "sha256": "1aa8d623ca1866bce6859b645253a3b9d63733075e781cf87391e1536c7582c1",
-    "size": 272416099
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.zip",
+    "sha256": "98606b9231aec3bac626f675deae0ef8d6ab58d97046d6337bec0fc4e26547a4",
+    "size": 272425795
   },
   "installer": {
-    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.8/panda-matrix-1.0.8.exe",
-    "sha256": "4398acdcadb5ecf30b947fc64e59c5d8f8cfcd3a3521a5f4d9581cb68f57e5d0",
-    "size": 199787161,
-    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.8/panda-matrix-1.0.8.exe.blockmap"
+    "url": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.exe",
+    "sha256": "1ed676aace5b3f49d9636371d696badbc9c1365495b49152dadb14a54c5f30da",
+    "size": 199799810,
+    "blockmapUrl": "https://panda-matrix-update.tos-cn-beijing.volces.com/panda-matrix/v1.0.9/panda-matrix-1.0.9.exe.blockmap"
   },
   "patches": [],
   "mandatory": true
